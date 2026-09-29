@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "source_count": 4595,
+  "main_count": 4595,
+  "review_count": 2046,
+  "request_count": 2621,
+  "checks": [
+    "Frozen source hashes and rubric",
+    "Unique trial identities",
+    "All requested stronger reviews complete",
+    "Every quote matches its source line",
+    "Category matches two axes",
+    "Guarded source exclusion",
+    "No uncertain labels mapped to Other",
+    "Every saved request matches its source mapping and frozen protocol",
+    "Every base label exactly re-parses from its original API response"
+  ],
+  "checked_at": 1789147549.005067
+}

@@ -1,0 +1,6 @@
+{
+  "proceed": false,
+  "instructions_sha256": "f1c3bf1a7405e6bcc5485d55d772a2964091d089c0ea341918836ce8dfe7d034",
+  "explanation": "Pilot rejected for assistance over-crediting: 11/18 matches with blinded assistant spot checks, including clear false positives on incoherent and generic content. Model agreement alone was insufficient. V1 labels are archived; version 2 tightens the as-written mechanism test and uses fresh validation cases.",
+  "reviewed_at": 1789146338.001055
+}

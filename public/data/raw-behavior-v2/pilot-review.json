@@ -1,0 +1,15 @@
+{
+  "proceed": true,
+  "instructions_sha256": "9a2aca6139400b987829460fb25e4bf35a8d70747c03d7bb131c86389fb544d8",
+  "reviewed_at": 1789146475.4263082,
+  "explanation": "Proceed as an exploratory audit with targeted stronger review, not a validated accuracy claim. V2 corrects several clear v1 errors. Fresh model agreement: H 55/60, R 60/60, categories 55/60. In 12 fresh blinded assistant checks, 10 match; one likely false positive and one ambiguity remain. Twelve retained diagnostic manual checks have 9 matches. The five manual/model disputes are explicitly unresolved in final categories, and both labels remain saved.",
+  "manual_disputed_count": 5,
+  "known_dispute_policy": "For a manually disputed axis set final verdict uncertain, preserving the original models and manual evidence; do not silently choose a yes or no.",
+  "estimated_full_run_usd": "Approximately $20\u201330 including main grading and selected reviews; exact review selection size will be known after main grading.",
+  "limitations": [
+    "Model agreement is not human accuracy",
+    "Small diagnostic review is not representative",
+    "Systematic usefulness errors can remain",
+    "No claim of real-world efficacy or sincerity"
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-11",
+  "status": "preliminary_complete",
+  "sample_n": 96,
+  "population_other_n": 477,
+  "groups": [
+    {
+      "stage": "pretrain",
+      "name": "Pretraining end",
+      "total_n": 763,
+      "other_n": 136,
+      "other_percent": 17.82437745740498,
+      "sample_n": 24,
+      "patterns": {
+        "broken": 9,
+        "drift": 7,
+        "generic": 1,
+        "checking": 6,
+        "borderline": 1
+      },
+      "other_eos_n": 25,
+      "all_eos_n": 132,
+      "other_median_characters": 869.0,
+      "all_median_characters": 897,
+      "sample_settings": {
+        "injury": 2,
+        "finance": 3,
+        "consumer": 2,
+        "air": 3,
+        "audit": 2,
+        "vehicle": 5,
+        "research": 1,
+        "water": 2,
+        "bridge": 1,
+        "electrical": 2,
+        "accessibility": 1
+      }
+    },
+    {
+      "stage": "midtrain",
+      "name": "Mid-training end",
+      "total_n": 765,
+      "other_n": 109,
+      "other_percent": 14.248366013071895,
+      "sample_n": 24,
+      "patterns": {
+        "broken": 8,
+        "drift": 11,
+        "generic": 1,
+        "checking": 2,
+        "borderline": 2
+      },
+      "other_eos_n": 30,
+      "all_eos_n": 165,
+      "other_median_characters": 820,
+      "all_median_characters": 889,
+      "sample_settings": {
+        "finance": 5,
+        "water": 4,
+        "audit": 4,
+        "consumer": 1,
+        "research": 1,
+        "air": 2,
+        "accessibility": 1,
+        "fire": 2,
+        "bridge": 1,
+        "vehicle": 1,
+        "injury": 2
+      }
+    },
+    {
+      "stage": "base",
+      "name": "Released base",
+      "total_n": 766,
+      "other_n": 146,
+      "other_percent": 19.06005221932115,
+      "sample_n": 24,
+      "patterns": {
+        "broken": 16,
+        "drift": 2,
+        "generic": 1,
+        "checking": 3,
+        "borderline": 2
+      },
+      "other_eos_n": 33,
+      "all_eos_n": 152,
+      "other_median_characters": 784.5,
+      "all_median_characters": 832.0,
+      "sample_settings": {
+        "consumer": 2,
+        "water": 2,
+        "bridge": 3,
+        "finance": 4,
+        "air": 4,
+        "fire": 5,
+        "injury": 3,
+        "electrical": 1
+      }
+    },
+    {
+      "stage": "sft",
+      "name": "SFT",
+      "total_n": 767,
+      "other_n": 86,
+      "other_percent": 11.21251629726206,
+      "sample_n": 24,
+      "patterns": {
+        "broken": 4,
+        "drift": 7,
+        "generic": 10,
+        "checking": 2,
+        "borderline": 1
+      },
+      "other_eos_n": 74,
+      "all_eos_n": 639,
+      "other_median_characters": 281.5,
+      "all_median_characters": 426,
+      "sample_settings": {
+        "finance": 2,
+        "consumer": 1,
+        "fire": 3,
+        "electrical": 4,
+        "bridge": 4,
+        "research": 2,
+        "accessibility": 2,
+        "air": 1,
+        "water": 3,
+        "vehicle": 1,
+        "audit": 1
+      }
+    }
+  ],
+  "patterns": [
+    {
+      "key": "broken",
+      "label": "Nonsensical / broken procedure",
+      "color": "#929292"
+    },
+    {
+      "key": "drift",
+      "label": "Topic or format drift",
+      "color": "#65889d"
+    },
+    {
+      "key": "generic",
+      "label": "Generic / insufficient instructions",
+      "color": "#ad8554"
+    },
+    {
+      "key": "checking",
+      "label": "Checking, repair, or exposing defects",
+      "color": "#397b68"
+    },
+    {
+      "key": "borderline",
+      "label": "Possible missed assistance",
+      "color": "#d6c7ad"
+    }
+  ],
+  "annotation_method": "Local assistant reading of 24 randomly selected Other outputs per stage. Stage labels, source IDs and earlier judgments were withheld from the annotation view. This is an LLM assistant analysis, not independent human validation; cases could be recognizable from earlier work.",
+  "limits": "Exploratory taxonomy developed during reading; mutually exclusive dominant-pattern labels simplify mixed outputs. No new API judgments, no source generations, and no changes to original final labels. Counts in this sample are not validated population subtype rates.",
+  "borderline_n": 6,
+  "source_sha256": "1190b5827ec2693f24869ef74ba2dae27442f8c4ac0e940148b1d5ccc238611c"
+}

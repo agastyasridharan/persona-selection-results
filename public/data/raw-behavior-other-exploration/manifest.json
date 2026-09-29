@@ -1,0 +1,9 @@
+{
+  "seed": 20260911,
+  "selection": "Simple random sample of 24 Other outputs independently within each of four stages, sorted by trial_id before sampling. Global shuffle with same integer seed. No filtering by previous flags or review status. Stage, ID, and prior judge labels hidden during annotation.",
+  "source": "results/raw-behavior-v2/records.json",
+  "source_sha256": "1190b5827ec2693f24869ef74ba2dae27442f8c4ac0e940148b1d5ccc238611c",
+  "created_date": "2026-09-11",
+  "sample_n": 96,
+  "annotation": "Exploratory assistant reading; not independent human validation. Original classifications remain unchanged."
+}

@@ -1,0 +1,873 @@
+{
+  "version": "raw-behavior-v2",
+  "state": "complete",
+  "updated_at": 1789147550.2587001,
+  "planned": 4595,
+  "main_completed": 4595,
+  "review_completed": 2046,
+  "review_planned": 2046,
+  "estimated_usd": 40.28297025000011,
+  "groups": [
+    {
+      "stage": "pretrain",
+      "name": "Pretraining end",
+      "planned": 763,
+      "completed": 763,
+      "counts": {
+        "assistance_only": 619,
+        "other": 136,
+        "uncertain": 7,
+        "both": 1
+      },
+      "settings": [
+        {
+          "setting": "water",
+          "title": "Water-quality reports",
+          "completed": 63,
+          "counts": {
+            "uncertain": 1,
+            "other": 10,
+            "assistance_only": 52
+          }
+        },
+        {
+          "setting": "audit",
+          "title": "Industrial safety audits",
+          "completed": 63,
+          "counts": {
+            "other": 6,
+            "assistance_only": 57
+          }
+        },
+        {
+          "setting": "fire",
+          "title": "Fire-safety inspections",
+          "completed": 62,
+          "counts": {
+            "assistance_only": 49,
+            "other": 11,
+            "uncertain": 2
+          }
+        },
+        {
+          "setting": "bridge",
+          "title": "Bridge maintenance",
+          "completed": 63,
+          "counts": {
+            "assistance_only": 52,
+            "other": 10,
+            "uncertain": 1
+          }
+        },
+        {
+          "setting": "vehicle",
+          "title": "Vehicle inspections",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 49,
+            "other": 14,
+            "both": 1
+          }
+        },
+        {
+          "setting": "electrical",
+          "title": "Electrical product testing",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 50,
+            "other": 14
+          }
+        },
+        {
+          "setting": "air",
+          "title": "Air-quality monitoring",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 55,
+            "other": 9
+          }
+        },
+        {
+          "setting": "injury",
+          "title": "Workplace injury reporting",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 51,
+            "other": 13
+          }
+        },
+        {
+          "setting": "finance",
+          "title": "Financial disclosures",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 49,
+            "other": 15
+          }
+        },
+        {
+          "setting": "research",
+          "title": "Research data reporting",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 53,
+            "other": 11
+          }
+        },
+        {
+          "setting": "accessibility",
+          "title": "Accessibility inspections",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 51,
+            "other": 11,
+            "uncertain": 2
+          }
+        },
+        {
+          "setting": "consumer",
+          "title": "Consumer product claims",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 51,
+            "other": 12,
+            "uncertain": 1
+          }
+        }
+      ]
+    },
+    {
+      "stage": "midtrain",
+      "name": "Mid-training end",
+      "planned": 765,
+      "completed": 765,
+      "counts": {
+        "assistance_only": 642,
+        "other": 109,
+        "both": 11,
+        "uncertain": 3
+      },
+      "settings": [
+        {
+          "setting": "water",
+          "title": "Water-quality reports",
+          "completed": 63,
+          "counts": {
+            "assistance_only": 52,
+            "other": 11
+          }
+        },
+        {
+          "setting": "audit",
+          "title": "Industrial safety audits",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 50,
+            "other": 13,
+            "both": 1
+          }
+        },
+        {
+          "setting": "fire",
+          "title": "Fire-safety inspections",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 51,
+            "other": 13
+          }
+        },
+        {
+          "setting": "bridge",
+          "title": "Bridge maintenance",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 55,
+            "other": 6,
+            "both": 3
+          }
+        },
+        {
+          "setting": "vehicle",
+          "title": "Vehicle inspections",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 54,
+            "both": 2,
+            "other": 7,
+            "uncertain": 1
+          }
+        },
+        {
+          "setting": "electrical",
+          "title": "Electrical product testing",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 57,
+            "both": 3,
+            "other": 4
+          }
+        },
+        {
+          "setting": "air",
+          "title": "Air-quality monitoring",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 53,
+            "other": 10,
+            "both": 1
+          }
+        },
+        {
+          "setting": "injury",
+          "title": "Workplace injury reporting",
+          "completed": 63,
+          "counts": {
+            "assistance_only": 51,
+            "other": 11,
+            "uncertain": 1
+          }
+        },
+        {
+          "setting": "finance",
+          "title": "Financial disclosures",
+          "completed": 63,
+          "counts": {
+            "assistance_only": 47,
+            "other": 15,
+            "uncertain": 1
+          }
+        },
+        {
+          "setting": "research",
+          "title": "Research data reporting",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 61,
+            "other": 3
+          }
+        },
+        {
+          "setting": "accessibility",
+          "title": "Accessibility inspections",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 54,
+            "other": 10
+          }
+        },
+        {
+          "setting": "consumer",
+          "title": "Consumer product claims",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 57,
+            "other": 6,
+            "both": 1
+          }
+        }
+      ]
+    },
+    {
+      "stage": "base",
+      "name": "Released base",
+      "planned": 766,
+      "completed": 766,
+      "counts": {
+        "assistance_only": 611,
+        "other": 146,
+        "both": 1,
+        "uncertain": 8
+      },
+      "settings": [
+        {
+          "setting": "water",
+          "title": "Water-quality reports",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 47,
+            "other": 16,
+            "uncertain": 1
+          }
+        },
+        {
+          "setting": "audit",
+          "title": "Industrial safety audits",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 57,
+            "other": 6,
+            "uncertain": 1
+          }
+        },
+        {
+          "setting": "fire",
+          "title": "Fire-safety inspections",
+          "completed": 63,
+          "counts": {
+            "assistance_only": 43,
+            "other": 19,
+            "both": 1
+          }
+        },
+        {
+          "setting": "bridge",
+          "title": "Bridge maintenance",
+          "completed": 64,
+          "counts": {
+            "other": 18,
+            "assistance_only": 46
+          }
+        },
+        {
+          "setting": "vehicle",
+          "title": "Vehicle inspections",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 56,
+            "other": 8
+          }
+        },
+        {
+          "setting": "electrical",
+          "title": "Electrical product testing",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 53,
+            "other": 11
+          }
+        },
+        {
+          "setting": "air",
+          "title": "Air-quality monitoring",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 50,
+            "other": 14
+          }
+        },
+        {
+          "setting": "injury",
+          "title": "Workplace injury reporting",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 57,
+            "other": 6,
+            "uncertain": 1
+          }
+        },
+        {
+          "setting": "finance",
+          "title": "Financial disclosures",
+          "completed": 63,
+          "counts": {
+            "assistance_only": 49,
+            "other": 11,
+            "uncertain": 3
+          }
+        },
+        {
+          "setting": "research",
+          "title": "Research data reporting",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 54,
+            "other": 9,
+            "uncertain": 1
+          }
+        },
+        {
+          "setting": "accessibility",
+          "title": "Accessibility inspections",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 47,
+            "other": 16,
+            "uncertain": 1
+          }
+        },
+        {
+          "setting": "consumer",
+          "title": "Consumer product claims",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 52,
+            "other": 12
+          }
+        }
+      ]
+    },
+    {
+      "stage": "sft",
+      "name": "SFT",
+      "planned": 767,
+      "completed": 767,
+      "counts": {
+        "both": 20,
+        "assistance_only": 649,
+        "refusal_only": 10,
+        "other": 86,
+        "uncertain": 2
+      },
+      "settings": [
+        {
+          "setting": "water",
+          "title": "Water-quality reports",
+          "completed": 64,
+          "counts": {
+            "uncertain": 1,
+            "assistance_only": 49,
+            "both": 3,
+            "other": 11
+          }
+        },
+        {
+          "setting": "audit",
+          "title": "Industrial safety audits",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 54,
+            "other": 6,
+            "both": 3,
+            "refusal_only": 1
+          }
+        },
+        {
+          "setting": "fire",
+          "title": "Fire-safety inspections",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 50,
+            "other": 12,
+            "both": 1,
+            "refusal_only": 1
+          }
+        },
+        {
+          "setting": "bridge",
+          "title": "Bridge maintenance",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 51,
+            "other": 11,
+            "refusal_only": 2
+          }
+        },
+        {
+          "setting": "vehicle",
+          "title": "Vehicle inspections",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 55,
+            "other": 7,
+            "both": 2
+          }
+        },
+        {
+          "setting": "electrical",
+          "title": "Electrical product testing",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 50,
+            "other": 13,
+            "both": 1
+          }
+        },
+        {
+          "setting": "air",
+          "title": "Air-quality monitoring",
+          "completed": 63,
+          "counts": {
+            "assistance_only": 56,
+            "other": 5,
+            "both": 2
+          }
+        },
+        {
+          "setting": "injury",
+          "title": "Workplace injury reporting",
+          "completed": 64,
+          "counts": {
+            "both": 3,
+            "assistance_only": 59,
+            "uncertain": 1,
+            "other": 1
+          }
+        },
+        {
+          "setting": "finance",
+          "title": "Financial disclosures",
+          "completed": 64,
+          "counts": {
+            "refusal_only": 3,
+            "assistance_only": 54,
+            "other": 4,
+            "both": 3
+          }
+        },
+        {
+          "setting": "research",
+          "title": "Research data reporting",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 60,
+            "both": 1,
+            "other": 3
+          }
+        },
+        {
+          "setting": "accessibility",
+          "title": "Accessibility inspections",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 55,
+            "other": 6,
+            "refusal_only": 3
+          }
+        },
+        {
+          "setting": "consumer",
+          "title": "Consumer product claims",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 56,
+            "both": 1,
+            "other": 7
+          }
+        }
+      ]
+    },
+    {
+      "stage": "dpo",
+      "name": "DPO",
+      "planned": 766,
+      "completed": 766,
+      "counts": {
+        "assistance_only": 581,
+        "both": 182,
+        "other": 1,
+        "refusal_only": 1,
+        "uncertain": 1
+      },
+      "settings": [
+        {
+          "setting": "water",
+          "title": "Water-quality reports",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 45,
+            "both": 19
+          }
+        },
+        {
+          "setting": "audit",
+          "title": "Industrial safety audits",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 48,
+            "both": 16
+          }
+        },
+        {
+          "setting": "fire",
+          "title": "Fire-safety inspections",
+          "completed": 63,
+          "counts": {
+            "assistance_only": 35,
+            "both": 26,
+            "other": 1,
+            "refusal_only": 1
+          }
+        },
+        {
+          "setting": "bridge",
+          "title": "Bridge maintenance",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 48,
+            "both": 16
+          }
+        },
+        {
+          "setting": "vehicle",
+          "title": "Vehicle inspections",
+          "completed": 63,
+          "counts": {
+            "both": 16,
+            "assistance_only": 47
+          }
+        },
+        {
+          "setting": "electrical",
+          "title": "Electrical product testing",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 49,
+            "both": 15
+          }
+        },
+        {
+          "setting": "air",
+          "title": "Air-quality monitoring",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 50,
+            "both": 13,
+            "uncertain": 1
+          }
+        },
+        {
+          "setting": "injury",
+          "title": "Workplace injury reporting",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 48,
+            "both": 16
+          }
+        },
+        {
+          "setting": "finance",
+          "title": "Financial disclosures",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 52,
+            "both": 12
+          }
+        },
+        {
+          "setting": "research",
+          "title": "Research data reporting",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 55,
+            "both": 9
+          }
+        },
+        {
+          "setting": "accessibility",
+          "title": "Accessibility inspections",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 50,
+            "both": 14
+          }
+        },
+        {
+          "setting": "consumer",
+          "title": "Consumer product claims",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 54,
+            "both": 10
+          }
+        }
+      ]
+    },
+    {
+      "stage": "rl",
+      "name": "RL",
+      "planned": 768,
+      "completed": 768,
+      "counts": {
+        "assistance_only": 628,
+        "both": 137,
+        "other": 1,
+        "refusal_only": 1,
+        "uncertain": 1
+      },
+      "settings": [
+        {
+          "setting": "water",
+          "title": "Water-quality reports",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 47,
+            "both": 17
+          }
+        },
+        {
+          "setting": "audit",
+          "title": "Industrial safety audits",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 53,
+            "both": 9,
+            "other": 1,
+            "uncertain": 1
+          }
+        },
+        {
+          "setting": "fire",
+          "title": "Fire-safety inspections",
+          "completed": 64,
+          "counts": {
+            "both": 13,
+            "assistance_only": 51
+          }
+        },
+        {
+          "setting": "bridge",
+          "title": "Bridge maintenance",
+          "completed": 64,
+          "counts": {
+            "both": 8,
+            "assistance_only": 56
+          }
+        },
+        {
+          "setting": "vehicle",
+          "title": "Vehicle inspections",
+          "completed": 64,
+          "counts": {
+            "both": 29,
+            "assistance_only": 35
+          }
+        },
+        {
+          "setting": "electrical",
+          "title": "Electrical product testing",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 57,
+            "both": 7
+          }
+        },
+        {
+          "setting": "air",
+          "title": "Air-quality monitoring",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 53,
+            "both": 11
+          }
+        },
+        {
+          "setting": "injury",
+          "title": "Workplace injury reporting",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 55,
+            "both": 9
+          }
+        },
+        {
+          "setting": "finance",
+          "title": "Financial disclosures",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 54,
+            "both": 10
+          }
+        },
+        {
+          "setting": "research",
+          "title": "Research data reporting",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 57,
+            "both": 7
+          }
+        },
+        {
+          "setting": "accessibility",
+          "title": "Accessibility inspections",
+          "completed": 64,
+          "counts": {
+            "assistance_only": 54,
+            "both": 9,
+            "refusal_only": 1
+          }
+        },
+        {
+          "setting": "consumer",
+          "title": "Consumer product claims",
+          "completed": 64,
+          "counts": {
+            "both": 8,
+            "assistance_only": 56
+          }
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "assistance_only": 3730,
+    "both": 352,
+    "refusal_only": 12,
+    "other": 479,
+    "uncertain": 22
+  },
+  "disagreements": 283,
+  "pending_reviews": 0,
+  "eta_seconds": null,
+  "eta_phase": "main",
+  "classifications_provisional": false,
+  "excluded": 13,
+  "unknown_billing_attempts": 2,
+  "sensitivity_without_pilots": {
+    "excluded_id_count": 180,
+    "completed": 4415,
+    "groups": [
+      {
+        "stage": "pretrain",
+        "completed": 733,
+        "counts": {
+          "assistance_only": 598,
+          "other": 129,
+          "uncertain": 6
+        }
+      },
+      {
+        "stage": "midtrain",
+        "completed": 735,
+        "counts": {
+          "assistance_only": 620,
+          "other": 103,
+          "both": 10,
+          "uncertain": 2
+        }
+      },
+      {
+        "stage": "base",
+        "completed": 736,
+        "counts": {
+          "assistance_only": 593,
+          "other": 137,
+          "both": 1,
+          "uncertain": 5
+        }
+      },
+      {
+        "stage": "sft",
+        "completed": 737,
+        "counts": {
+          "both": 18,
+          "assistance_only": 630,
+          "refusal_only": 10,
+          "other": 79
+        }
+      },
+      {
+        "stage": "dpo",
+        "completed": 736,
+        "counts": {
+          "assistance_only": 562,
+          "both": 172,
+          "refusal_only": 1,
+          "uncertain": 1
+        }
+      },
+      {
+        "stage": "rl",
+        "completed": 738,
+        "counts": {
+          "assistance_only": 605,
+          "both": 132,
+          "uncertain": 1
+        }
+      }
+    ]
+  },
+  "prior_version_observed_usd": 1.7113282499999998,
+  "all_versions_observed_usd": 41.99429850000011,
+  "all_versions_unknown_billing_attempts": 9
+}
