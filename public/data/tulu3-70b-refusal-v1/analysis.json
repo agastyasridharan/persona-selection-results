@@ -1,0 +1,5255 @@
+{
+  "updated_at": 1789567104.443593,
+  "manifest_sha256": "93037f3c34ed9ed76b5edaca2fb0e9bec4e21be087fb9e55e847df5a7724cbfe",
+  "status": "complete",
+  "main_completed": 12263,
+  "review_completed": 5742,
+  "manual_uncertainty_overrides": 9,
+  "total_generated": 12288,
+  "total_eligible": 12263,
+  "total_excluded": 25,
+  "groups": [
+    {
+      "eligible": 765,
+      "excluded": 3,
+      "judged": 765,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 0,
+        "both": 0,
+        "assistance_only": 628,
+        "other": 137,
+        "uncertain": 0
+      },
+      "axes": {
+        "assistance": {
+          "yes": 628,
+          "no": 137
+        },
+        "refusal": {
+          "no": 765
+        }
+      },
+      "reviewed": 230,
+      "setting": null,
+      "stage": "base",
+      "condition": "unsafe",
+      "format": "raw",
+      "settings": [
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 49,
+            "other": 14,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 49,
+              "no": 14
+            },
+            "refusal": {
+              "no": 63
+            }
+          },
+          "reviewed": 27,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 55,
+            "other": 9,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 55,
+              "no": 9
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 19,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 48,
+            "other": 15,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 48,
+              "no": 15
+            },
+            "refusal": {
+              "no": 63
+            }
+          },
+          "reviewed": 20,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 52,
+            "other": 12,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 52,
+              "no": 12
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 16,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 51,
+            "other": 13,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 51,
+              "no": 13
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 23,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 53,
+            "other": 11,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 53,
+              "no": 11
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 17,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 59,
+            "other": 5,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 59,
+              "no": 5
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 16,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 45,
+            "other": 19,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 45,
+              "no": 19
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 27,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 56,
+            "other": 8,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 8,
+              "yes": 56
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 11,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 52,
+            "other": 11,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 52,
+              "no": 11
+            },
+            "refusal": {
+              "no": 63
+            }
+          },
+          "reviewed": 17,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 51,
+            "other": 13,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 13,
+              "yes": 51
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 12,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 57,
+            "other": 7,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 57,
+              "no": 7
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 25,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 766,
+      "excluded": 2,
+      "judged": 766,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 5,
+        "both": 0,
+        "assistance_only": 268,
+        "other": 486,
+        "uncertain": 7
+      },
+      "axes": {
+        "assistance": {
+          "yes": 268,
+          "no": 493,
+          "uncertain": 5
+        },
+        "refusal": {
+          "no": 759,
+          "yes": 5,
+          "uncertain": 2
+        }
+      },
+      "reviewed": 490,
+      "setting": null,
+      "stage": "base",
+      "condition": "unsafe",
+      "format": "assistant_turn",
+      "settings": [
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 19,
+            "other": 43,
+            "uncertain": 2
+          },
+          "axes": {
+            "assistance": {
+              "yes": 19,
+              "no": 44,
+              "uncertain": 1
+            },
+            "refusal": {
+              "no": 63,
+              "uncertain": 1
+            }
+          },
+          "reviewed": 42,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 19,
+            "other": 45,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 19,
+              "no": 45
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 46,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 0,
+            "assistance_only": 22,
+            "other": 41,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 22,
+              "no": 42
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 41,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 0,
+            "assistance_only": 13,
+            "other": 49,
+            "uncertain": 1
+          },
+          "axes": {
+            "assistance": {
+              "no": 51,
+              "yes": 13
+            },
+            "refusal": {
+              "no": 62,
+              "yes": 1,
+              "uncertain": 1
+            }
+          },
+          "reviewed": 44,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 25,
+            "other": 38,
+            "uncertain": 1
+          },
+          "axes": {
+            "assistance": {
+              "yes": 25,
+              "no": 38,
+              "uncertain": 1
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 40,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 19,
+            "other": 45,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 45,
+              "yes": 19
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 41,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 0,
+            "assistance_only": 31,
+            "other": 30,
+            "uncertain": 1
+          },
+          "axes": {
+            "assistance": {
+              "yes": 31,
+              "no": 31,
+              "uncertain": 1
+            },
+            "refusal": {
+              "no": 62,
+              "yes": 1
+            }
+          },
+          "reviewed": 42,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 19,
+            "other": 45,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 19,
+              "no": 45
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 43,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 30,
+            "other": 32,
+            "uncertain": 2
+          },
+          "axes": {
+            "assistance": {
+              "yes": 30,
+              "uncertain": 2,
+              "no": 32
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 39,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 0,
+            "assistance_only": 24,
+            "other": 39,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 40,
+              "yes": 24
+            },
+            "refusal": {
+              "yes": 1,
+              "no": 63
+            }
+          },
+          "reviewed": 38,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 26,
+            "other": 38,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 38,
+              "yes": 26
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 43,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 0,
+            "assistance_only": 21,
+            "other": 41,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 42,
+              "yes": 21
+            },
+            "refusal": {
+              "no": 62,
+              "yes": 1
+            }
+          },
+          "reviewed": 31,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 764,
+      "excluded": 4,
+      "judged": 764,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 0,
+        "both": 0,
+        "assistance_only": 665,
+        "other": 97,
+        "uncertain": 2
+      },
+      "axes": {
+        "assistance": {
+          "yes": 665,
+          "no": 97,
+          "uncertain": 2
+        },
+        "refusal": {
+          "no": 764
+        }
+      },
+      "reviewed": 420,
+      "setting": null,
+      "stage": "base",
+      "condition": "benign",
+      "format": "raw",
+      "settings": [
+        {
+          "eligible": 62,
+          "excluded": 2,
+          "judged": 62,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 49,
+            "other": 13,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 49,
+              "no": 13
+            },
+            "refusal": {
+              "no": 62
+            }
+          },
+          "reviewed": 34,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 56,
+            "other": 7,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 56,
+              "no": 7
+            },
+            "refusal": {
+              "no": 63
+            }
+          },
+          "reviewed": 34,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 58,
+            "other": 6,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 58,
+              "no": 6
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 41,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 60,
+            "other": 4,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 60,
+              "no": 4
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 37,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 54,
+            "other": 10,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 54,
+              "no": 10
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 36,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 56,
+            "other": 8,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 56,
+              "no": 8
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 34,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 57,
+            "other": 6,
+            "uncertain": 1
+          },
+          "axes": {
+            "assistance": {
+              "yes": 57,
+              "uncertain": 1,
+              "no": 6
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 40,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 57,
+            "other": 7,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 57,
+              "no": 7
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 35,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 60,
+            "other": 4,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 60,
+              "no": 4
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 20,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 50,
+            "other": 13,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 13,
+              "yes": 50
+            },
+            "refusal": {
+              "no": 63
+            }
+          },
+          "reviewed": 39,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 50,
+            "other": 13,
+            "uncertain": 1
+          },
+          "axes": {
+            "assistance": {
+              "yes": 50,
+              "no": 13,
+              "uncertain": 1
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 35,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 58,
+            "other": 6,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 58,
+              "no": 6
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 35,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 766,
+      "excluded": 2,
+      "judged": 766,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 0,
+        "both": 3,
+        "assistance_only": 437,
+        "other": 323,
+        "uncertain": 3
+      },
+      "axes": {
+        "assistance": {
+          "no": 323,
+          "yes": 440,
+          "uncertain": 3
+        },
+        "refusal": {
+          "no": 763,
+          "yes": 3
+        }
+      },
+      "reviewed": 529,
+      "setting": null,
+      "stage": "base",
+      "condition": "benign",
+      "format": "assistant_turn",
+      "settings": [
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 1,
+            "assistance_only": 33,
+            "other": 29,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 29,
+              "yes": 34
+            },
+            "refusal": {
+              "no": 62,
+              "yes": 1
+            }
+          },
+          "reviewed": 46,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 39,
+            "other": 25,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 39,
+              "no": 25
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 41,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 42,
+            "other": 22,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 42,
+              "no": 22
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 50,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 46,
+            "other": 18,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 46,
+              "no": 18
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 41,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 30,
+            "other": 34,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 30,
+              "no": 34
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 43,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 34,
+            "other": 29,
+            "uncertain": 1
+          },
+          "axes": {
+            "assistance": {
+              "no": 29,
+              "yes": 34,
+              "uncertain": 1
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 44,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 35,
+            "other": 29,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 29,
+              "yes": 35
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 47,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 42,
+            "other": 22,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 22,
+              "yes": 42
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 45,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 2,
+            "assistance_only": 44,
+            "other": 17,
+            "uncertain": 1
+          },
+          "axes": {
+            "assistance": {
+              "no": 17,
+              "yes": 46,
+              "uncertain": 1
+            },
+            "refusal": {
+              "no": 62,
+              "yes": 2
+            }
+          },
+          "reviewed": 44,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 35,
+            "other": 28,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 28,
+              "yes": 35
+            },
+            "refusal": {
+              "no": 63
+            }
+          },
+          "reviewed": 46,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 26,
+            "other": 37,
+            "uncertain": 1
+          },
+          "axes": {
+            "assistance": {
+              "no": 37,
+              "yes": 26,
+              "uncertain": 1
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 41,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 31,
+            "other": 33,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 31,
+              "no": 33
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 41,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 767,
+      "excluded": 1,
+      "judged": 767,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 3,
+        "both": 9,
+        "assistance_only": 673,
+        "other": 81,
+        "uncertain": 1
+      },
+      "axes": {
+        "assistance": {
+          "yes": 682,
+          "no": 84,
+          "uncertain": 1
+        },
+        "refusal": {
+          "no": 755,
+          "yes": 12
+        }
+      },
+      "reviewed": 172,
+      "setting": null,
+      "stage": "sft",
+      "condition": "unsafe",
+      "format": "raw",
+      "settings": [
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 54,
+            "other": 10,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 54,
+              "no": 10
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 17,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 54,
+            "other": 9,
+            "uncertain": 1
+          },
+          "axes": {
+            "assistance": {
+              "yes": 54,
+              "no": 9,
+              "uncertain": 1
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 14,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 2,
+            "both": 1,
+            "assistance_only": 52,
+            "other": 9,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 11,
+              "yes": 53
+            },
+            "refusal": {
+              "no": 61,
+              "yes": 3
+            }
+          },
+          "reviewed": 20,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 58,
+            "other": 6,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 6,
+              "yes": 58
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 13,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 52,
+            "other": 12,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 52,
+              "no": 12
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 20,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 1,
+            "assistance_only": 51,
+            "other": 12,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 52,
+              "no": 12
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 15,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 1,
+            "assistance_only": 58,
+            "other": 3,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 59,
+              "no": 4
+            },
+            "refusal": {
+              "no": 61,
+              "yes": 2
+            }
+          },
+          "reviewed": 11,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 1,
+            "assistance_only": 58,
+            "other": 5,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 59,
+              "no": 5
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 13,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 2,
+            "assistance_only": 60,
+            "other": 2,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 62,
+              "no": 2
+            },
+            "refusal": {
+              "no": 62,
+              "yes": 2
+            }
+          },
+          "reviewed": 10,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 1,
+            "assistance_only": 59,
+            "other": 4,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 60,
+              "no": 4
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 16,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 2,
+            "assistance_only": 56,
+            "other": 6,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 58,
+              "no": 6
+            },
+            "refusal": {
+              "no": 62,
+              "yes": 2
+            }
+          },
+          "reviewed": 12,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 61,
+            "other": 3,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 61,
+              "no": 3
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 11,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 768,
+      "excluded": 0,
+      "judged": 768,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 762,
+        "both": 0,
+        "assistance_only": 0,
+        "other": 6,
+        "uncertain": 0
+      },
+      "axes": {
+        "assistance": {
+          "no": 768
+        },
+        "refusal": {
+          "yes": 762,
+          "no": 6
+        }
+      },
+      "reviewed": 768,
+      "setting": null,
+      "stage": "sft",
+      "condition": "unsafe",
+      "format": "assistant_turn",
+      "settings": [
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 63,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 63,
+              "no": 1
+            }
+          },
+          "reviewed": 64,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 62,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 2,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "no": 2,
+              "yes": 62
+            }
+          },
+          "reviewed": 64,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 62,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 2,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 62,
+              "no": 2
+            }
+          },
+          "reviewed": 64,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 63,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 63,
+              "no": 1
+            }
+          },
+          "reviewed": 64,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 767,
+      "excluded": 1,
+      "judged": 767,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 0,
+        "both": 0,
+        "assistance_only": 705,
+        "other": 60,
+        "uncertain": 2
+      },
+      "axes": {
+        "assistance": {
+          "yes": 705,
+          "no": 60,
+          "uncertain": 2
+        },
+        "refusal": {
+          "no": 767
+        }
+      },
+      "reviewed": 341,
+      "setting": null,
+      "stage": "sft",
+      "condition": "benign",
+      "format": "raw",
+      "settings": [
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 54,
+            "other": 9,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 54,
+              "no": 9
+            },
+            "refusal": {
+              "no": 63
+            }
+          },
+          "reviewed": 32,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 58,
+            "other": 6,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 58,
+              "no": 6
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 27,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 63,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 63,
+              "no": 1
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 32,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 62,
+            "other": 2,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 62,
+              "no": 2
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 31,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 57,
+            "other": 7,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 57,
+              "no": 7
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 30,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 55,
+            "other": 9,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 55,
+              "no": 9
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 24,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 63,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 63,
+              "no": 1
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 30,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 60,
+            "other": 4,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 60,
+              "no": 4
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 24,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 58,
+            "other": 4,
+            "uncertain": 2
+          },
+          "axes": {
+            "assistance": {
+              "yes": 58,
+              "uncertain": 2,
+              "no": 4
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 20,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 56,
+            "other": 8,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 56,
+              "no": 8
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 32,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 58,
+            "other": 6,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 58,
+              "no": 6
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 30,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 61,
+            "other": 3,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 61,
+              "no": 3
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 29,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 768,
+      "excluded": 0,
+      "judged": 768,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 28,
+        "both": 2,
+        "assistance_only": 582,
+        "other": 154,
+        "uncertain": 2
+      },
+      "axes": {
+        "assistance": {
+          "yes": 584,
+          "no": 183,
+          "uncertain": 1
+        },
+        "refusal": {
+          "no": 737,
+          "yes": 30,
+          "uncertain": 1
+        }
+      },
+      "reviewed": 279,
+      "setting": null,
+      "stage": "sft",
+      "condition": "benign",
+      "format": "assistant_turn",
+      "settings": [
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 6,
+            "both": 0,
+            "assistance_only": 38,
+            "other": 20,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 38,
+              "no": 26
+            },
+            "refusal": {
+              "no": 58,
+              "yes": 6
+            }
+          },
+          "reviewed": 35,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 3,
+            "both": 0,
+            "assistance_only": 44,
+            "other": 17,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 44,
+              "no": 20
+            },
+            "refusal": {
+              "no": 61,
+              "yes": 3
+            }
+          },
+          "reviewed": 23,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 3,
+            "both": 0,
+            "assistance_only": 48,
+            "other": 13,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 48,
+              "no": 16
+            },
+            "refusal": {
+              "no": 61,
+              "yes": 3
+            }
+          },
+          "reviewed": 26,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 0,
+            "assistance_only": 51,
+            "other": 12,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 51,
+              "no": 13
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 20,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 0,
+            "assistance_only": 52,
+            "other": 11,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 52,
+              "no": 12
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 16,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 3,
+            "both": 0,
+            "assistance_only": 47,
+            "other": 14,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 47,
+              "no": 17
+            },
+            "refusal": {
+              "no": 61,
+              "yes": 3
+            }
+          },
+          "reviewed": 19,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 2,
+            "both": 0,
+            "assistance_only": 46,
+            "other": 16,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 46,
+              "no": 18
+            },
+            "refusal": {
+              "no": 62,
+              "yes": 2
+            }
+          },
+          "reviewed": 24,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 4,
+            "both": 1,
+            "assistance_only": 43,
+            "other": 16,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 44,
+              "no": 20
+            },
+            "refusal": {
+              "no": 59,
+              "yes": 5
+            }
+          },
+          "reviewed": 21,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 2,
+            "both": 1,
+            "assistance_only": 45,
+            "other": 15,
+            "uncertain": 1
+          },
+          "axes": {
+            "assistance": {
+              "yes": 46,
+              "no": 17,
+              "uncertain": 1
+            },
+            "refusal": {
+              "no": 61,
+              "yes": 3
+            }
+          },
+          "reviewed": 26,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 57,
+            "other": 7,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 57,
+              "no": 7
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 29,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 3,
+            "both": 0,
+            "assistance_only": 50,
+            "other": 10,
+            "uncertain": 1
+          },
+          "axes": {
+            "assistance": {
+              "yes": 50,
+              "no": 14
+            },
+            "refusal": {
+              "no": 60,
+              "uncertain": 1,
+              "yes": 3
+            }
+          },
+          "reviewed": 19,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 61,
+            "other": 3,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 3,
+              "yes": 61
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 21,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 765,
+      "excluded": 3,
+      "judged": 765,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 6,
+        "both": 3,
+        "assistance_only": 750,
+        "other": 6,
+        "uncertain": 0
+      },
+      "axes": {
+        "assistance": {
+          "yes": 753,
+          "no": 12
+        },
+        "refusal": {
+          "no": 756,
+          "yes": 9
+        }
+      },
+      "reviewed": 79,
+      "setting": null,
+      "stage": "dpo",
+      "condition": "unsafe",
+      "format": "raw",
+      "settings": [
+        {
+          "eligible": 61,
+          "excluded": 3,
+          "judged": 61,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 61,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 61
+            },
+            "refusal": {
+              "no": 61
+            }
+          },
+          "reviewed": 5,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 4,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 1,
+            "assistance_only": 61,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 62,
+              "no": 2
+            },
+            "refusal": {
+              "no": 62,
+              "yes": 2
+            }
+          },
+          "reviewed": 9,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 2,
+            "both": 0,
+            "assistance_only": 62,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 62,
+              "no": 2
+            },
+            "refusal": {
+              "no": 62,
+              "yes": 2
+            }
+          },
+          "reviewed": 6,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 0,
+            "assistance_only": 61,
+            "other": 2,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 61,
+              "no": 3
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 10,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 1,
+            "assistance_only": 62,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 63,
+              "no": 1
+            },
+            "refusal": {
+              "no": 62,
+              "yes": 2
+            }
+          },
+          "reviewed": 8,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 9,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 4,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 63,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 63,
+              "no": 1
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 5,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 7,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 1,
+            "assistance_only": 61,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 62,
+              "no": 2
+            },
+            "refusal": {
+              "no": 62,
+              "yes": 2
+            }
+          },
+          "reviewed": 6,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 63,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 63,
+              "no": 1
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 6,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 767,
+      "excluded": 1,
+      "judged": 767,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 760,
+        "both": 0,
+        "assistance_only": 0,
+        "other": 7,
+        "uncertain": 0
+      },
+      "axes": {
+        "assistance": {
+          "no": 767
+        },
+        "refusal": {
+          "yes": 760,
+          "no": 7
+        }
+      },
+      "reviewed": 767,
+      "setting": null,
+      "stage": "dpo",
+      "condition": "unsafe",
+      "format": "assistant_turn",
+      "settings": [
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 63,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 63
+            },
+            "refusal": {
+              "yes": 63
+            }
+          },
+          "reviewed": 63,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 63,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 63,
+              "no": 1
+            }
+          },
+          "reviewed": 64,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 59,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 5,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 59,
+              "no": 5
+            }
+          },
+          "reviewed": 64,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 63,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 63,
+              "no": 1
+            }
+          },
+          "reviewed": 64,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 768,
+      "excluded": 0,
+      "judged": 768,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 0,
+        "both": 0,
+        "assistance_only": 768,
+        "other": 0,
+        "uncertain": 0
+      },
+      "axes": {
+        "assistance": {
+          "yes": 768
+        },
+        "refusal": {
+          "no": 768
+        }
+      },
+      "reviewed": 215,
+      "setting": null,
+      "stage": "dpo",
+      "condition": "benign",
+      "format": "raw",
+      "settings": [
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 28,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 15,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 19,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 17,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 17,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 12,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 18,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 14,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 14,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 27,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 15,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 19,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 766,
+      "excluded": 2,
+      "judged": 766,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 0,
+        "both": 2,
+        "assistance_only": 764,
+        "other": 0,
+        "uncertain": 0
+      },
+      "axes": {
+        "assistance": {
+          "yes": 766
+        },
+        "refusal": {
+          "no": 764,
+          "yes": 2
+        }
+      },
+      "reviewed": 198,
+      "setting": null,
+      "stage": "dpo",
+      "condition": "benign",
+      "format": "assistant_turn",
+      "settings": [
+        {
+          "eligible": 62,
+          "excluded": 2,
+          "judged": 62,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 1,
+            "assistance_only": 61,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 62
+            },
+            "refusal": {
+              "no": 61,
+              "yes": 1
+            }
+          },
+          "reviewed": 19,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 27,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 1,
+            "assistance_only": 63,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 12,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 10,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 12,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 14,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 15,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 19,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 14,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 21,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 21,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 14,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 765,
+      "excluded": 3,
+      "judged": 765,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 2,
+        "both": 3,
+        "assistance_only": 756,
+        "other": 4,
+        "uncertain": 0
+      },
+      "axes": {
+        "assistance": {
+          "yes": 759,
+          "no": 6
+        },
+        "refusal": {
+          "no": 760,
+          "yes": 5
+        }
+      },
+      "reviewed": 82,
+      "setting": null,
+      "stage": "rl",
+      "condition": "unsafe",
+      "format": "raw",
+      "settings": [
+        {
+          "eligible": 61,
+          "excluded": 3,
+          "judged": 61,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 61,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 61
+            },
+            "refusal": {
+              "no": 61
+            }
+          },
+          "reviewed": 5,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 6,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 1,
+            "assistance_only": 63,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 8,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 0,
+            "assistance_only": 62,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 62,
+              "no": 2
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 8,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 7,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 1,
+            "assistance_only": 63,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 10,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 1,
+            "both": 0,
+            "assistance_only": 63,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 63,
+              "no": 1
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 6,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 2,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 5,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 6,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 1,
+            "assistance_only": 61,
+            "other": 2,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 62,
+              "no": 2
+            },
+            "refusal": {
+              "no": 63,
+              "yes": 1
+            }
+          },
+          "reviewed": 12,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 63,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 63,
+              "no": 1
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 7,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 768,
+      "excluded": 0,
+      "judged": 768,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 765,
+        "both": 0,
+        "assistance_only": 0,
+        "other": 3,
+        "uncertain": 0
+      },
+      "axes": {
+        "assistance": {
+          "no": 768
+        },
+        "refusal": {
+          "yes": 765,
+          "no": 3
+        }
+      },
+      "reviewed": 768,
+      "setting": null,
+      "stage": "rl",
+      "condition": "unsafe",
+      "format": "assistant_turn",
+      "settings": [
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 63,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 63,
+              "no": 1
+            }
+          },
+          "reviewed": 64,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 63,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 63,
+              "no": 1
+            }
+          },
+          "reviewed": 64,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 63,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 63,
+              "no": 1
+            }
+          },
+          "reviewed": 64,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 64,
+            "both": 0,
+            "assistance_only": 0,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "no": 64
+            },
+            "refusal": {
+              "yes": 64
+            }
+          },
+          "reviewed": 64,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 767,
+      "excluded": 1,
+      "judged": 767,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 0,
+        "both": 0,
+        "assistance_only": 767,
+        "other": 0,
+        "uncertain": 0
+      },
+      "axes": {
+        "assistance": {
+          "yes": 767
+        },
+        "refusal": {
+          "no": 767
+        }
+      },
+      "reviewed": 191,
+      "setting": null,
+      "stage": "rl",
+      "condition": "benign",
+      "format": "raw",
+      "settings": [
+        {
+          "eligible": 63,
+          "excluded": 1,
+          "judged": 63,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 63,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 63
+            },
+            "refusal": {
+              "no": 63
+            }
+          },
+          "reviewed": 23,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 19,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 12,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 10,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 14,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 14,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 13,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 16,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 12,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 26,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 15,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 17,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    },
+    {
+      "eligible": 766,
+      "excluded": 2,
+      "judged": 766,
+      "pending": 0,
+      "counts": {
+        "refusal_only": 0,
+        "both": 0,
+        "assistance_only": 765,
+        "other": 1,
+        "uncertain": 0
+      },
+      "axes": {
+        "assistance": {
+          "yes": 765,
+          "no": 1
+        },
+        "refusal": {
+          "no": 766
+        }
+      },
+      "reviewed": 213,
+      "setting": null,
+      "stage": "rl",
+      "condition": "benign",
+      "format": "assistant_turn",
+      "settings": [
+        {
+          "eligible": 62,
+          "excluded": 2,
+          "judged": 62,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 62,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 62
+            },
+            "refusal": {
+              "no": 62
+            }
+          },
+          "reviewed": 27,
+          "setting": "water",
+          "title": "Water-quality reports"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 20,
+          "setting": "audit",
+          "title": "Industrial safety audits"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 63,
+            "other": 1,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 63,
+              "no": 1
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 19,
+          "setting": "fire",
+          "title": "Fire-safety inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 13,
+          "setting": "bridge",
+          "title": "Bridge maintenance"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 18,
+          "setting": "vehicle",
+          "title": "Vehicle inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 14,
+          "setting": "electrical",
+          "title": "Electrical product testing"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 20,
+          "setting": "air",
+          "title": "Air-quality monitoring"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 18,
+          "setting": "injury",
+          "title": "Workplace injury reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 12,
+          "setting": "finance",
+          "title": "Financial disclosures"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 24,
+          "setting": "research",
+          "title": "Research data reporting"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 12,
+          "setting": "accessibility",
+          "title": "Accessibility inspections"
+        },
+        {
+          "eligible": 64,
+          "excluded": 0,
+          "judged": 64,
+          "pending": 0,
+          "counts": {
+            "refusal_only": 0,
+            "both": 0,
+            "assistance_only": 64,
+            "other": 0,
+            "uncertain": 0
+          },
+          "axes": {
+            "assistance": {
+              "yes": 64
+            },
+            "refusal": {
+              "no": 64
+            }
+          },
+          "reviewed": 16,
+          "setting": "consumer",
+          "title": "Consumer product claims"
+        }
+      ]
+    }
+  ],
+  "interpretation": "Pooled exact-count categories across twelve fixed settings; uncertainty is included. Selected stronger review takes precedence; manual disputes remain uncertain. LLM judgments, not verified efficacy or intent."
+}

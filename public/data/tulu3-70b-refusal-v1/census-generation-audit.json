@@ -1,0 +1,138 @@
+{
+  "checked_at": 1789527387.579929,
+  "manifest_sha256": "93037f3c34ed9ed76b5edaca2fb0e9bec4e21be087fb9e55e847df5a7724cbfe",
+  "total": 12288,
+  "eligible": 12263,
+  "excluded": 25,
+  "all_stage_audits_passed": true,
+  "all_1531_eligible_pilot_digests_unchanged": true,
+  "stages": [
+    {
+      "stage": "base",
+      "checked_at": 1789515554.2061057,
+      "all_checks_passed": true,
+      "source_sha256": "fc22200dd4c5dae01e1e5241d26e706d72f93359691462c423f7836d6889f7d5",
+      "manifest_sha256": "93037f3c34ed9ed76b5edaca2fb0e9bec4e21be087fb9e55e847df5a7724cbfe",
+      "total": 3072,
+      "eligible_records_checked": 3061,
+      "excluded": 11,
+      "cells": 48,
+      "draws_per_cell": 64,
+      "finish_counts": {
+        "raw:unsafe:eos": 268,
+        "raw:unsafe:length": 497,
+        "assistant_turn:unsafe:length": 572,
+        "assistant_turn:unsafe:eos": 194,
+        "raw:benign:length": 499,
+        "raw:benign:eos": 265,
+        "assistant_turn:benign:length": 548,
+        "assistant_turn:benign:eos": 218
+      },
+      "checks": [
+        "pinned source and model identity",
+        "exact seeds and sample identities",
+        "48 complete cells",
+        "BF16 GPU-only metadata and finite-logit smoke",
+        "own tokenizer input/output exact decode",
+        "native post-trained template or base formatting control",
+        "model-specific EOS versus length stopping",
+        "guarded exclusions not reconstructed"
+      ]
+    },
+    {
+      "stage": "sft",
+      "checked_at": 1789518253.8075697,
+      "all_checks_passed": true,
+      "source_sha256": "5e7502add2080f1f3d566e88bf31ce7c16efec926d47a17dc089c236189ae0a7",
+      "manifest_sha256": "93037f3c34ed9ed76b5edaca2fb0e9bec4e21be087fb9e55e847df5a7724cbfe",
+      "total": 3072,
+      "eligible_records_checked": 3070,
+      "excluded": 2,
+      "cells": 48,
+      "draws_per_cell": 64,
+      "finish_counts": {
+        "raw:unsafe:eos": 611,
+        "raw:unsafe:length": 156,
+        "assistant_turn:unsafe:eos": 754,
+        "raw:benign:length": 156,
+        "raw:benign:eos": 611,
+        "assistant_turn:benign:length": 155,
+        "assistant_turn:benign:eos": 613,
+        "assistant_turn:unsafe:length": 14
+      },
+      "checks": [
+        "pinned source and model identity",
+        "exact seeds and sample identities",
+        "48 complete cells",
+        "BF16 GPU-only metadata and finite-logit smoke",
+        "own tokenizer input/output exact decode",
+        "native post-trained template or base formatting control",
+        "model-specific EOS versus length stopping",
+        "guarded exclusions not reconstructed"
+      ]
+    },
+    {
+      "stage": "dpo",
+      "checked_at": 1789527359.1267977,
+      "all_checks_passed": true,
+      "source_sha256": "f6f26d255f7c4104f3e20d0677077e6d83045d85f0e08e983ddd4842ca846203",
+      "manifest_sha256": "93037f3c34ed9ed76b5edaca2fb0e9bec4e21be087fb9e55e847df5a7724cbfe",
+      "total": 3072,
+      "eligible_records_checked": 3066,
+      "excluded": 6,
+      "cells": 48,
+      "draws_per_cell": 64,
+      "finish_counts": {
+        "raw:unsafe:length": 755,
+        "assistant_turn:unsafe:length": 519,
+        "assistant_turn:unsafe:eos": 248,
+        "raw:benign:length": 754,
+        "assistant_turn:benign:length": 766,
+        "raw:benign:eos": 14,
+        "raw:unsafe:eos": 10
+      },
+      "checks": [
+        "pinned source and model identity",
+        "exact seeds and sample identities",
+        "48 complete cells",
+        "BF16 GPU-only metadata and finite-logit smoke",
+        "own tokenizer input/output exact decode",
+        "native post-trained template or base formatting control",
+        "model-specific EOS versus length stopping",
+        "guarded exclusions not reconstructed"
+      ]
+    },
+    {
+      "stage": "rl",
+      "checked_at": 1789527359.1692777,
+      "all_checks_passed": true,
+      "source_sha256": "ce7b79c18acb846408029295099d76f43a113ad806b4c25eb406ed4bb63dc61b",
+      "manifest_sha256": "93037f3c34ed9ed76b5edaca2fb0e9bec4e21be087fb9e55e847df5a7724cbfe",
+      "total": 3072,
+      "eligible_records_checked": 3066,
+      "excluded": 6,
+      "cells": 48,
+      "draws_per_cell": 64,
+      "finish_counts": {
+        "raw:unsafe:length": 757,
+        "assistant_turn:unsafe:length": 482,
+        "assistant_turn:unsafe:eos": 286,
+        "raw:benign:length": 747,
+        "assistant_turn:benign:length": 765,
+        "raw:benign:eos": 20,
+        "raw:unsafe:eos": 8,
+        "assistant_turn:benign:eos": 1
+      },
+      "checks": [
+        "pinned source and model identity",
+        "exact seeds and sample identities",
+        "48 complete cells",
+        "BF16 GPU-only metadata and finite-logit smoke",
+        "own tokenizer input/output exact decode",
+        "native post-trained template or base formatting control",
+        "model-specific EOS versus length stopping",
+        "guarded exclusions not reconstructed"
+      ]
+    }
+  ]
+}

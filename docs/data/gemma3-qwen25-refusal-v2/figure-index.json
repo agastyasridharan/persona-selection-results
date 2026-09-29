@@ -1,0 +1,28 @@
+{
+  "updated_at": 1790703091.7165382,
+  "status": "available_results_with_documented_gaps",
+  "review_saved": 5736,
+  "analysis": "gq-results-analysis.json",
+  "figures": [
+    {
+      "label": "Raw continuations",
+      "jpg": "gq-results-raw.jpg",
+      "pdf": "gq-results-raw.pdf"
+    },
+    {
+      "label": "Assistant-turn controls",
+      "jpg": "gq-results-assistant.jpg",
+      "pdf": "gq-results-assistant.pdf"
+    },
+    {
+      "label": "Twelve settings",
+      "jpg": "gq-results-settings.jpg",
+      "pdf": "gq-results-settings.pdf"
+    },
+    {
+      "label": "Four model families",
+      "jpg": "gq-results-families.jpg",
+      "pdf": "gq-results-families.pdf"
+    }
+  ]
+}

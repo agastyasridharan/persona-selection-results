@@ -1,0 +1,25 @@
+{
+  "at": 1790437740.843055,
+  "proceed": true,
+  "scope": "Proceed with full generation; final grading still pending",
+  "manifest_sha256": "ada6f6fb0a400140181ab7057846516d28a6dd101a6b2a1150afa61f62584df1",
+  "pilot_total": 1536,
+  "eligible": 1533,
+  "excluded": 3,
+  "main_labels": 1533,
+  "selected_stronger_reviews": 1030,
+  "completed_stronger_reviews": 1014,
+  "deferred_stronger_reviews": 16,
+  "available_grading_integrity_audit": "pilot-available-grading-audit.json",
+  "semantic_checks": [
+    "16 stratified assistant references saved before API labels; not human ground truth",
+    "Targeted main/stronger disagreements manually inspected; two assistance disputes retained as uncertain"
+  ],
+  "reason": "The corrected input formats, output generation and saved grading provenance passed validation. The remaining16 reviews concern interrupted API attempts, not model generation correctness; generating the unchanged full protocol can proceed independently of the pending retry decision.",
+  "limitations": [
+    "No claim that all selected pilot reviews are complete.",
+    "No automatic retry of the16 interrupted attempts.",
+    "Do not finalize study conclusions until deferred-review accounting and full grading audits are resolved."
+  ],
+  "final_grading_complete": false
+}

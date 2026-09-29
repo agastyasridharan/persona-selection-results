@@ -1,0 +1,23 @@
+{
+  "at": 1790463763.833536,
+  "kind": "main",
+  "manifest_sha256": "ada6f6fb0a400140181ab7057846516d28a6dd101a6b2a1150afa61f62584df1",
+  "planned": 12265,
+  "labels": 12217,
+  "deferred": 40,
+  "quarantined": 8,
+  "requests": 1528,
+  "unanswered_request_ids": [
+    "19dba28326e24d2d616f87e8",
+    "29f50b867dced583f70d557c",
+    "45bc91ab3b163f38acf9b84e",
+    "7e5b4a221248956f50e88fa9",
+    "ceeea9214df6f5b6f120fc85"
+  ],
+  "quarantined_request_ids": [
+    "48667c1c60fb2a49b824c6f3"
+  ],
+  "all_available_integrity_checks_passed": true,
+  "complete_without_gaps": false,
+  "interpretation": "All available labels, payloads, source hashes and quotations verified. Deferred labels remain missing. Quarantined content was not inspected. This is not a semantic-accuracy audit."
+}

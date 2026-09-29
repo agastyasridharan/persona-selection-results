@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "path": "dashboard/public/data/raw-behavior-v2/summary.json",
+      "sha256": "095b30b97fc7675b33ca058a7f3c483d8e05e7b6c7e148bef9316dc6e259cace"
+    },
+    {
+      "path": "dashboard/public/data/tulu3-70b-refusal-v1/analysis.json",
+      "sha256": "8309a52d17d18c6692d65ed24fcf5f26d1eff9b4521830e3500794a1119a3c7a"
+    }
+  ],
+  "gemma_qwen_analysis": "gq-results-analysis.json",
+  "interpretation": "Comparison uses saved aggregate labels only; populations and review histories differ."
+}

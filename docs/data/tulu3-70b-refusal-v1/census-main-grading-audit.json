@@ -1,0 +1,18 @@
+{
+  "audited_at": 1789566094.806134,
+  "kind": "main",
+  "manifest_sha256": "93037f3c34ed9ed76b5edaca2fb0e9bec4e21be087fb9e55e847df5a7724cbfe",
+  "eligible_sources": 12263,
+  "requests": 1534,
+  "labels": 12263,
+  "all_expected_identities_present": true,
+  "duplicates": 0,
+  "all_saved_responses_reparsed": true,
+  "exact_source_evidence_and_labels_match": true,
+  "all_payloads_match_frozen_rubrics": true,
+  "current_api_errors": 0,
+  "unresolved_current_attempts": 0,
+  "archived_failed_attempts": 60,
+  "estimated_confirmed_response_usd": 25.850420999999997,
+  "interpretation": "Integrity and provenance audit, not proof of semantic label accuracy. Older archived ambiguous failures may have unknown costs."
+}

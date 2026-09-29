@@ -1,0 +1,40 @@
+{
+  "decided_at": 1789511338.0025952,
+  "proceed": true,
+  "manifest_sha256": "93037f3c34ed9ed76b5edaca2fb0e9bec4e21be087fb9e55e847df5a7724cbfe",
+  "decision_scope": "Proceed with the pre-specified full generation and exploratory grading; not a declaration of established semantic judge accuracy.",
+  "pilot_outputs": 1536,
+  "eligible": 1531,
+  "excluded": 5,
+  "main_labels": 1531,
+  "stronger_reviews": 935,
+  "technical_validation": "Pinned models, BF16 GPU-only execution, finite logits, source identities, prompts, seeds, hashes, exact tokenizer encode/decode and EOS checks passed. All saved judge responses reparsed against exact original source and evidence.",
+  "semantic_review": "Sixteen pre-judge blinded Codex assessments, targeted concerns, and six additional disagreement spot checks. Both API judges agreed with 14/16 assistance and 16/16 refusal references. These are small assistant comparisons, not independent human accuracy estimates.",
+  "unresolved_manual_overrides": 4,
+  "unresolved_final_cases": 5,
+  "limitations": [
+    "Known subjective substantive-assistance and refusal-force boundaries remain. Both original API labels and manual uncertainty overrides are retained.",
+    "Stronger-review selection is enriched for difficult cases; its disagreement rate is not an unbiased error estimate.",
+    "Only 192 generated tokens are visible; later refusal is unmeasured.",
+    "Twelve fixed settings with repeated draws; no claim of broad safety generalization or causal size effects.",
+    "Guarded exclusions are retained in counts; their contents must not be reconstructed."
+  ],
+  "execution": {
+    "physical_gpus": [
+      2,
+      3
+    ],
+    "phase": "census",
+    "additional_samples_per_cell": 56,
+    "total_planned_including_pilot": 12288,
+    "preserve_pilot": true
+  },
+  "evidence_files": [
+    "pilot-technical-audit.json",
+    "pilot-grading-final-audit.json",
+    "blinded-validation-comparison.json",
+    "grading/post-review-spot-audit.json",
+    "grading/unresolved-overrides.json",
+    "grading/request-identity-repair.json"
+  ]
+}
