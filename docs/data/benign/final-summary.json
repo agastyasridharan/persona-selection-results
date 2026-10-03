@@ -1,0 +1,1248 @@
+{
+  "metadata": {
+    "at": 1790782222.924171,
+    "generation_complete": 20480,
+    "retained_first_stage": 20323,
+    "excluded_first_stage": 157,
+    "generation_guard_excluded": 136,
+    "eligible_boundaries": 4007,
+    "retained_extensions": 4001,
+    "extension_exclusions": 6,
+    "missing_192_windows": 13,
+    "primary_assessments": 44634,
+    "strong_reviews": 19155,
+    "quarantined_assessments": 0,
+    "review_status": {
+      "not_selected": 25479,
+      "corroborated": 16156,
+      "disagreement": 2999
+    },
+    "reused_labels": {
+      "mini": 5213,
+      "strong": 1679
+    },
+    "current_run_usage": {
+      "mini": {
+        "input_tokens": 65678160,
+        "output_tokens": 17852628,
+        "cached_tokens": 133888
+      },
+      "strong": {
+        "input_tokens": 30507112,
+        "output_tokens": 7339340,
+        "cached_tokens": 0
+      }
+    },
+    "current_run_requests_with_usage": {
+      "mini": 9873,
+      "strong": 4386
+    },
+    "recovery_counts": {
+      "token_limited_responses": 1
+    },
+    "normalizations": {
+      "assistant_bare_marker_retained_uncertain": 12,
+      "user_uncertain_without_evidence": 2,
+      "user_bare_marker_retained_uncertain": 2,
+      "user_positive_without_evidence_retained_uncertain": 1,
+      "initial_context_evidence_inconsistent_retained_uncertain": 1
+    },
+    "source_sha256": {
+      "aggregates.json": "563249628b69c58af162c75f26f87b274fb5d06a57dd3b3977f23779b0554f7c",
+      "paired.json": "49f3b4effe3187a0829b0b940c563e2feeb917c52e8a0e89881ef514f4785943",
+      "final-audit.json": "16e1d375cf60e623f46114efc127a15371ef07f7ac89defcca16412d56d6f715"
+    },
+    "reporting_audit_passed": true,
+    "additional_grading_guard_excluded": 21
+  },
+  "by_checkpoint": {
+    "512": {
+      "olmo_pretrain": {
+        "n": 2024,
+        "categories": {
+          "continued_context": 1007,
+          "context_to_user_to_assistant": 94,
+          "other": 636,
+          "uncertain": 140,
+          "user_without_observed_assistant": 133,
+          "context_to_assistant_direct": 14
+        },
+        "category_pct": {
+          "continued_context": 49.75296442687747,
+          "context_to_user_to_assistant": 4.644268774703558,
+          "other": 31.42292490118577,
+          "uncertain": 6.91699604743083,
+          "user_without_observed_assistant": 6.571146245059288,
+          "context_to_assistant_direct": 0.691699604743083
+        },
+        "assistant_presence": {
+          "no": 1845,
+          "yes": 129,
+          "uncertain": 50
+        },
+        "assistant_yes_pct": 6.373517786561265,
+        "review_status": {
+          "not_selected": 1648,
+          "corroborated": 239,
+          "disagreement": 137
+        }
+      },
+      "olmo_midtrain": {
+        "n": 2025,
+        "categories": {
+          "context_to_user_to_assistant": 553,
+          "continued_context": 751,
+          "other": 417,
+          "uncertain": 145,
+          "user_without_observed_assistant": 100,
+          "context_to_assistant_direct": 57,
+          "user_from_start_then_assistant": 2
+        },
+        "category_pct": {
+          "context_to_user_to_assistant": 27.308641975308642,
+          "continued_context": 37.08641975308642,
+          "other": 20.59259259259259,
+          "uncertain": 7.160493827160494,
+          "user_without_observed_assistant": 4.938271604938271,
+          "context_to_assistant_direct": 2.814814814814815,
+          "user_from_start_then_assistant": 0.09876543209876543
+        },
+        "assistant_presence": {
+          "yes": 668,
+          "no": 1312,
+          "uncertain": 45
+        },
+        "assistant_yes_pct": 32.98765432098765,
+        "review_status": {
+          "corroborated": 707,
+          "not_selected": 1173,
+          "disagreement": 145
+        }
+      },
+      "olmo_base": {
+        "n": 2029,
+        "categories": {
+          "continued_context": 571,
+          "context_to_user_to_assistant": 803,
+          "other": 376,
+          "uncertain": 129,
+          "user_without_observed_assistant": 103,
+          "assistant_from_start": 1,
+          "context_to_assistant_direct": 43,
+          "user_from_start_then_assistant": 3
+        },
+        "category_pct": {
+          "continued_context": 28.141941843272548,
+          "context_to_user_to_assistant": 39.57614588467225,
+          "other": 18.531296205027108,
+          "uncertain": 6.3578117299162145,
+          "user_without_observed_assistant": 5.076392311483489,
+          "assistant_from_start": 0.04928536224741252,
+          "context_to_assistant_direct": 2.1192705766387383,
+          "user_from_start_then_assistant": 0.14785608674223755
+        },
+        "assistant_presence": {
+          "no": 1083,
+          "yes": 907,
+          "uncertain": 39
+        },
+        "assistant_yes_pct": 44.701823558403156,
+        "review_status": {
+          "not_selected": 973,
+          "corroborated": 933,
+          "disagreement": 123
+        }
+      },
+      "olmo_sft": {
+        "n": 2028,
+        "categories": {
+          "context_to_user_to_assistant": 503,
+          "user_without_observed_assistant": 671,
+          "continued_context": 454,
+          "context_to_assistant_direct": 33,
+          "user_from_start_then_assistant": 2,
+          "uncertain": 168,
+          "other": 197
+        },
+        "category_pct": {
+          "context_to_user_to_assistant": 24.80276134122288,
+          "user_without_observed_assistant": 33.086785009861934,
+          "continued_context": 22.386587771203157,
+          "context_to_assistant_direct": 1.6272189349112427,
+          "user_from_start_then_assistant": 0.09861932938856016,
+          "uncertain": 8.284023668639053,
+          "other": 9.714003944773175
+        },
+        "assistant_presence": {
+          "yes": 572,
+          "no": 1353,
+          "uncertain": 103
+        },
+        "assistant_yes_pct": 28.205128205128204,
+        "review_status": {
+          "corroborated": 663,
+          "not_selected": 1200,
+          "disagreement": 165
+        }
+      },
+      "olmo_dpo": {
+        "n": 2040,
+        "categories": {
+          "continued_context": 499,
+          "user_without_observed_assistant": 826,
+          "context_to_user_to_assistant": 450,
+          "other": 105,
+          "context_to_assistant_direct": 29,
+          "uncertain": 126,
+          "user_from_start_then_assistant": 5
+        },
+        "category_pct": {
+          "continued_context": 24.46078431372549,
+          "user_without_observed_assistant": 40.490196078431374,
+          "context_to_user_to_assistant": 22.058823529411764,
+          "other": 5.147058823529412,
+          "context_to_assistant_direct": 1.4215686274509804,
+          "uncertain": 6.176470588235294,
+          "user_from_start_then_assistant": 0.24509803921568626
+        },
+        "assistant_presence": {
+          "no": 1446,
+          "yes": 519,
+          "uncertain": 75
+        },
+        "assistant_yes_pct": 25.441176470588236,
+        "review_status": {
+          "not_selected": 1300,
+          "corroborated": 620,
+          "disagreement": 120
+        }
+      },
+      "olmo_rl": {
+        "n": 2038,
+        "categories": {
+          "continued_context": 473,
+          "context_to_user_to_assistant": 492,
+          "user_without_observed_assistant": 809,
+          "uncertain": 136,
+          "other": 89,
+          "context_to_assistant_direct": 37,
+          "user_from_start_then_assistant": 2
+        },
+        "category_pct": {
+          "continued_context": 23.2090284592738,
+          "context_to_user_to_assistant": 24.141315014720313,
+          "user_without_observed_assistant": 39.695780176643765,
+          "uncertain": 6.673209028459274,
+          "other": 4.36702649656526,
+          "context_to_assistant_direct": 1.815505397448479,
+          "user_from_start_then_assistant": 0.09813542688910697
+        },
+        "assistant_presence": {
+          "no": 1389,
+          "yes": 569,
+          "uncertain": 80
+        },
+        "assistant_yes_pct": 27.919528949950934,
+        "review_status": {
+          "corroborated": 644,
+          "not_selected": 1264,
+          "disagreement": 130
+        }
+      },
+      "gemma_base": {
+        "n": 2037,
+        "categories": {
+          "continued_context": 1340,
+          "other": 284,
+          "uncertain": 104,
+          "context_to_assistant_direct": 36,
+          "user_without_observed_assistant": 185,
+          "context_to_user_to_assistant": 88
+        },
+        "category_pct": {
+          "continued_context": 65.78301423662248,
+          "other": 13.942071674030437,
+          "uncertain": 5.10554737358861,
+          "context_to_assistant_direct": 1.7673048600883652,
+          "user_without_observed_assistant": 9.081983308787432,
+          "context_to_user_to_assistant": 4.32007854688267
+        },
+        "assistant_presence": {
+          "no": 1852,
+          "yes": 132,
+          "uncertain": 53
+        },
+        "assistant_yes_pct": 6.480117820324006,
+        "review_status": {
+          "not_selected": 1682,
+          "corroborated": 254,
+          "disagreement": 101
+        }
+      },
+      "gemma_instruct": {
+        "n": 2047,
+        "categories": {
+          "continued_context": 976,
+          "other": 17,
+          "context_to_user_to_assistant": 559,
+          "user_without_observed_assistant": 112,
+          "uncertain": 113,
+          "context_to_assistant_direct": 270
+        },
+        "category_pct": {
+          "continued_context": 47.67953102100635,
+          "other": 0.8304836345872008,
+          "context_to_user_to_assistant": 27.308255984367367,
+          "user_without_observed_assistant": 5.471421592574499,
+          "uncertain": 5.5202735710796285,
+          "context_to_assistant_direct": 13.190034196384953
+        },
+        "assistant_presence": {
+          "no": 1111,
+          "yes": 893,
+          "uncertain": 43
+        },
+        "assistant_yes_pct": 43.624816805080606,
+        "review_status": {
+          "not_selected": 1024,
+          "corroborated": 913,
+          "disagreement": 110
+        }
+      },
+      "qwen_base": {
+        "n": 2020,
+        "categories": {
+          "uncertain": 193,
+          "other": 285,
+          "user_without_observed_assistant": 119,
+          "user_from_start_then_assistant": 31,
+          "context_to_user_to_assistant": 734,
+          "continued_context": 605,
+          "context_to_assistant_direct": 53
+        },
+        "category_pct": {
+          "uncertain": 9.554455445544555,
+          "other": 14.108910891089108,
+          "user_without_observed_assistant": 5.891089108910891,
+          "user_from_start_then_assistant": 1.5346534653465347,
+          "context_to_user_to_assistant": 36.336633663366335,
+          "continued_context": 29.95049504950495,
+          "context_to_assistant_direct": 2.623762376237624
+        },
+        "assistant_presence": {
+          "yes": 945,
+          "no": 1032,
+          "uncertain": 43
+        },
+        "assistant_yes_pct": 46.78217821782178,
+        "review_status": {
+          "disagreement": 186,
+          "not_selected": 942,
+          "corroborated": 892
+        }
+      },
+      "qwen_instruct": {
+        "n": 2035,
+        "categories": {
+          "continued_context": 327,
+          "context_to_user_to_assistant": 1117,
+          "uncertain": 246,
+          "other": 114,
+          "context_to_assistant_direct": 189,
+          "user_without_observed_assistant": 26,
+          "user_from_start_then_assistant": 15,
+          "assistant_from_start": 1
+        },
+        "category_pct": {
+          "continued_context": 16.06879606879607,
+          "context_to_user_to_assistant": 54.88943488943489,
+          "uncertain": 12.088452088452089,
+          "other": 5.601965601965602,
+          "context_to_assistant_direct": 9.287469287469287,
+          "user_without_observed_assistant": 1.2776412776412776,
+          "user_from_start_then_assistant": 0.7371007371007371,
+          "assistant_from_start": 0.04914004914004914
+        },
+        "assistant_presence": {
+          "no": 483,
+          "yes": 1518,
+          "uncertain": 34
+        },
+        "assistant_yes_pct": 74.5945945945946,
+        "review_status": {
+          "not_selected": 438,
+          "corroborated": 1355,
+          "disagreement": 242
+        }
+      }
+    },
+    "192": {
+      "olmo_pretrain": {
+        "n": 2024,
+        "categories": {
+          "other": 574,
+          "context_to_user_to_assistant": 65,
+          "uncertain": 120,
+          "continued_context": 1134,
+          "user_without_observed_assistant": 121,
+          "context_to_assistant_direct": 10
+        },
+        "category_pct": {
+          "other": 28.359683794466402,
+          "context_to_user_to_assistant": 3.2114624505928853,
+          "uncertain": 5.928853754940712,
+          "continued_context": 56.027667984189726,
+          "user_without_observed_assistant": 5.978260869565218,
+          "context_to_assistant_direct": 0.49407114624505927
+        },
+        "assistant_presence": {
+          "no": 1892,
+          "yes": 88,
+          "uncertain": 44
+        },
+        "assistant_yes_pct": 4.3478260869565215,
+        "review_status": {
+          "corroborated": 198,
+          "disagreement": 118,
+          "not_selected": 1708
+        }
+      },
+      "olmo_midtrain": {
+        "n": 2023,
+        "categories": {
+          "continued_context": 944,
+          "other": 435,
+          "user_without_observed_assistant": 129,
+          "uncertain": 133,
+          "context_to_user_to_assistant": 336,
+          "context_to_assistant_direct": 44,
+          "user_from_start_then_assistant": 2
+        },
+        "category_pct": {
+          "continued_context": 46.66337123084528,
+          "other": 21.502718734552644,
+          "user_without_observed_assistant": 6.3766683143845775,
+          "uncertain": 6.57439446366782,
+          "context_to_user_to_assistant": 16.608996539792386,
+          "context_to_assistant_direct": 2.1749876421156698,
+          "user_from_start_then_assistant": 0.09886307464162135
+        },
+        "assistant_presence": {
+          "no": 1542,
+          "uncertain": 61,
+          "yes": 420
+        },
+        "assistant_yes_pct": 20.761245674740483,
+        "review_status": {
+          "not_selected": 1412,
+          "corroborated": 479,
+          "disagreement": 132
+        }
+      },
+      "olmo_base": {
+        "n": 2029,
+        "categories": {
+          "continued_context": 862,
+          "other": 467,
+          "context_to_user_to_assistant": 431,
+          "uncertain": 131,
+          "user_without_observed_assistant": 99,
+          "context_to_assistant_direct": 35,
+          "user_from_start_then_assistant": 4
+        },
+        "category_pct": {
+          "continued_context": 42.48398225726959,
+          "other": 23.016264169541646,
+          "context_to_user_to_assistant": 21.241991128634794,
+          "uncertain": 6.45638245441104,
+          "user_without_observed_assistant": 4.87925086249384,
+          "context_to_assistant_direct": 1.7249876786594383,
+          "user_from_start_then_assistant": 0.19714144898965008
+        },
+        "assistant_presence": {
+          "no": 1475,
+          "yes": 504,
+          "uncertain": 50
+        },
+        "assistant_yes_pct": 24.83982257269591,
+        "review_status": {
+          "not_selected": 1307,
+          "corroborated": 600,
+          "disagreement": 122
+        }
+      },
+      "olmo_sft": {
+        "n": 2023,
+        "categories": {
+          "continued_context": 721,
+          "user_without_observed_assistant": 580,
+          "user_from_start_then_assistant": 1,
+          "context_to_user_to_assistant": 332,
+          "uncertain": 143,
+          "other": 222,
+          "context_to_assistant_direct": 24
+        },
+        "category_pct": {
+          "continued_context": 35.6401384083045,
+          "user_without_observed_assistant": 28.670291646070194,
+          "user_from_start_then_assistant": 0.049431537320810674,
+          "context_to_user_to_assistant": 16.411270390509145,
+          "uncertain": 7.068709836875927,
+          "other": 10.97380128521997,
+          "context_to_assistant_direct": 1.1863568956994563
+        },
+        "assistant_presence": {
+          "no": 1551,
+          "yes": 387,
+          "uncertain": 85
+        },
+        "assistant_yes_pct": 19.130004943153732,
+        "review_status": {
+          "not_selected": 1413,
+          "corroborated": 471,
+          "disagreement": 139
+        }
+      },
+      "olmo_dpo": {
+        "n": 2039,
+        "categories": {
+          "continued_context": 739,
+          "user_without_observed_assistant": 710,
+          "uncertain": 123,
+          "other": 109,
+          "context_to_user_to_assistant": 335,
+          "context_to_assistant_direct": 19,
+          "user_from_start_then_assistant": 4
+        },
+        "category_pct": {
+          "continued_context": 36.24325649828347,
+          "user_without_observed_assistant": 34.82099068170672,
+          "uncertain": 6.032368808239333,
+          "other": 5.345757724374693,
+          "context_to_user_to_assistant": 16.429622363903874,
+          "context_to_assistant_direct": 0.9318293281020108,
+          "user_from_start_then_assistant": 0.196174595389897
+        },
+        "assistant_presence": {
+          "no": 1587,
+          "uncertain": 63,
+          "yes": 389
+        },
+        "assistant_yes_pct": 19.077979401667484,
+        "review_status": {
+          "not_selected": 1425,
+          "disagreement": 120,
+          "corroborated": 494
+        }
+      },
+      "olmo_rl": {
+        "n": 2036,
+        "categories": {
+          "continued_context": 731,
+          "context_to_user_to_assistant": 349,
+          "user_without_observed_assistant": 687,
+          "uncertain": 129,
+          "other": 111,
+          "context_to_assistant_direct": 26,
+          "user_from_start_then_assistant": 3
+        },
+        "category_pct": {
+          "continued_context": 35.90373280943025,
+          "context_to_user_to_assistant": 17.141453831041257,
+          "user_without_observed_assistant": 33.7426326129666,
+          "uncertain": 6.335952848722986,
+          "other": 5.451866404715128,
+          "context_to_assistant_direct": 1.2770137524557956,
+          "user_from_start_then_assistant": 0.14734774066797643
+        },
+        "assistant_presence": {
+          "no": 1555,
+          "yes": 407,
+          "uncertain": 74
+        },
+        "assistant_yes_pct": 19.990176817288802,
+        "review_status": {
+          "not_selected": 1387,
+          "corroborated": 527,
+          "disagreement": 122
+        }
+      },
+      "gemma_base": {
+        "n": 2037,
+        "categories": {
+          "continued_context": 1435,
+          "other": 243,
+          "context_to_user_to_assistant": 72,
+          "context_to_assistant_direct": 25,
+          "user_without_observed_assistant": 166,
+          "uncertain": 96
+        },
+        "category_pct": {
+          "continued_context": 70.44673539518901,
+          "other": 11.929307805596466,
+          "context_to_user_to_assistant": 3.5346097201767304,
+          "context_to_assistant_direct": 1.2272950417280315,
+          "user_without_observed_assistant": 8.149239077074128,
+          "uncertain": 4.712812960235641
+        },
+        "assistant_presence": {
+          "no": 1890,
+          "yes": 103,
+          "uncertain": 44
+        },
+        "assistant_yes_pct": 5.056455571919489,
+        "review_status": {
+          "not_selected": 1667,
+          "corroborated": 276,
+          "disagreement": 94
+        }
+      },
+      "gemma_instruct": {
+        "n": 2047,
+        "categories": {
+          "continued_context": 1143,
+          "context_to_user_to_assistant": 460,
+          "user_without_observed_assistant": 102,
+          "uncertain": 107,
+          "other": 21,
+          "context_to_assistant_direct": 214
+        },
+        "category_pct": {
+          "continued_context": 55.83781143136297,
+          "context_to_user_to_assistant": 22.471910112359552,
+          "user_without_observed_assistant": 4.982901807523205,
+          "uncertain": 5.227161700048852,
+          "other": 1.0258915486077187,
+          "context_to_assistant_direct": 10.454323400097705
+        },
+        "assistant_presence": {
+          "no": 1274,
+          "yes": 718,
+          "uncertain": 55
+        },
+        "assistant_yes_pct": 35.07572056668295,
+        "review_status": {
+          "not_selected": 1154,
+          "corroborated": 787,
+          "disagreement": 106
+        }
+      },
+      "qwen_base": {
+        "n": 2019,
+        "categories": {
+          "context_to_user_to_assistant": 588,
+          "other": 278,
+          "continued_context": 805,
+          "user_without_observed_assistant": 90,
+          "uncertain": 175,
+          "user_from_start_then_assistant": 34,
+          "context_to_assistant_direct": 49
+        },
+        "category_pct": {
+          "context_to_user_to_assistant": 29.12332838038633,
+          "other": 13.769192669638436,
+          "continued_context": 39.87122337790986,
+          "user_without_observed_assistant": 4.457652303120357,
+          "uncertain": 8.66765725606736,
+          "user_from_start_then_assistant": 1.6840019811788014,
+          "context_to_assistant_direct": 2.4269440316988606
+        },
+        "assistant_presence": {
+          "yes": 770,
+          "no": 1204,
+          "uncertain": 45
+        },
+        "assistant_yes_pct": 38.137691926696384,
+        "review_status": {
+          "corroborated": 771,
+          "not_selected": 1078,
+          "disagreement": 170
+        }
+      },
+      "qwen_instruct": {
+        "n": 2033,
+        "categories": {
+          "user_without_observed_assistant": 42,
+          "context_to_user_to_assistant": 981,
+          "continued_context": 504,
+          "other": 135,
+          "uncertain": 201,
+          "context_to_assistant_direct": 152,
+          "user_from_start_then_assistant": 17,
+          "assistant_from_start": 1
+        },
+        "category_pct": {
+          "user_without_observed_assistant": 2.0659124446630597,
+          "context_to_user_to_assistant": 48.25381210034432,
+          "continued_context": 24.790949335956714,
+          "other": 6.640432857845548,
+          "uncertain": 9.886866699458928,
+          "context_to_assistant_direct": 7.4766355140186915,
+          "user_from_start_then_assistant": 0.8362026561731432,
+          "assistant_from_start": 0.04918839153959666
+        },
+        "assistant_presence": {
+          "no": 692,
+          "yes": 1299,
+          "uncertain": 42
+        },
+        "assistant_yes_pct": 63.895720609936056,
+        "review_status": {
+          "not_selected": 623,
+          "corroborated": 1216,
+          "disagreement": 194
+        }
+      }
+    },
+    "joint": {
+      "olmo_pretrain": {
+        "n": 0,
+        "categories": {},
+        "category_pct": {},
+        "assistant_presence": {},
+        "assistant_yes_pct": null,
+        "review_status": {}
+      },
+      "olmo_midtrain": {
+        "n": 0,
+        "categories": {},
+        "category_pct": {},
+        "assistant_presence": {},
+        "assistant_yes_pct": null,
+        "review_status": {}
+      },
+      "olmo_base": {
+        "n": 0,
+        "categories": {},
+        "category_pct": {},
+        "assistant_presence": {},
+        "assistant_yes_pct": null,
+        "review_status": {}
+      },
+      "olmo_sft": {
+        "n": 793,
+        "categories": {
+          "context_to_user_to_assistant": 660,
+          "context_to_assistant_direct": 52,
+          "user_without_observed_assistant": 28,
+          "uncertain": 44,
+          "continued_context": 7,
+          "user_from_start_then_assistant": 1,
+          "other": 1
+        },
+        "category_pct": {
+          "context_to_user_to_assistant": 83.2282471626734,
+          "context_to_assistant_direct": 6.557377049180328,
+          "user_without_observed_assistant": 3.530895334174023,
+          "uncertain": 5.548549810844893,
+          "continued_context": 0.8827238335435057,
+          "user_from_start_then_assistant": 0.12610340479192939,
+          "other": 0.12610340479192939
+        },
+        "assistant_presence": {
+          "yes": 754,
+          "no": 35,
+          "uncertain": 4
+        },
+        "assistant_yes_pct": 95.08196721311475,
+        "review_status": {
+          "corroborated": 721,
+          "not_selected": 29,
+          "disagreement": 43
+        }
+      },
+      "olmo_dpo": {
+        "n": 958,
+        "categories": {
+          "uncertain": 57,
+          "context_to_user_to_assistant": 823,
+          "continued_context": 8,
+          "other": 1,
+          "context_to_assistant_direct": 54,
+          "user_without_observed_assistant": 15
+        },
+        "category_pct": {
+          "uncertain": 5.949895615866389,
+          "context_to_user_to_assistant": 85.90814196242171,
+          "continued_context": 0.8350730688935282,
+          "other": 0.10438413361169102,
+          "context_to_assistant_direct": 5.6367432150313155,
+          "user_without_observed_assistant": 1.5657620041753653
+        },
+        "assistant_presence": {
+          "yes": 933,
+          "no": 24,
+          "uncertain": 1
+        },
+        "assistant_yes_pct": 97.39039665970772,
+        "review_status": {
+          "disagreement": 55,
+          "corroborated": 883,
+          "not_selected": 20
+        }
+      },
+      "olmo_rl": {
+        "n": 962,
+        "categories": {
+          "context_to_user_to_assistant": 820,
+          "uncertain": 50,
+          "context_to_assistant_direct": 58,
+          "user_without_observed_assistant": 23,
+          "continued_context": 6,
+          "user_from_start_then_assistant": 5
+        },
+        "category_pct": {
+          "context_to_user_to_assistant": 85.23908523908524,
+          "uncertain": 5.197505197505198,
+          "context_to_assistant_direct": 6.029106029106029,
+          "user_without_observed_assistant": 2.3908523908523907,
+          "continued_context": 0.6237006237006237,
+          "user_from_start_then_assistant": 0.5197505197505198
+        },
+        "assistant_presence": {
+          "yes": 926,
+          "no": 29,
+          "uncertain": 7
+        },
+        "assistant_yes_pct": 96.25779625779626,
+        "review_status": {
+          "corroborated": 888,
+          "disagreement": 48,
+          "not_selected": 26
+        }
+      },
+      "gemma_base": {
+        "n": 0,
+        "categories": {},
+        "category_pct": {},
+        "assistant_presence": {},
+        "assistant_yes_pct": null,
+        "review_status": {}
+      },
+      "gemma_instruct": {
+        "n": 1274,
+        "categories": {
+          "continued_context": 568,
+          "context_to_user_to_assistant": 421,
+          "uncertain": 74,
+          "context_to_assistant_direct": 135,
+          "user_without_observed_assistant": 68,
+          "other": 8
+        },
+        "category_pct": {
+          "continued_context": 44.5839874411303,
+          "context_to_user_to_assistant": 33.04552590266876,
+          "uncertain": 5.808477237048666,
+          "context_to_assistant_direct": 10.596546310832025,
+          "user_without_observed_assistant": 5.337519623233909,
+          "other": 0.6279434850863422
+        },
+        "assistant_presence": {
+          "no": 647,
+          "yes": 600,
+          "uncertain": 27
+        },
+        "assistant_yes_pct": 47.09576138147567,
+        "review_status": {
+          "not_selected": 583,
+          "corroborated": 617,
+          "disagreement": 74
+        }
+      },
+      "qwen_base": {
+        "n": 0,
+        "categories": {},
+        "category_pct": {},
+        "assistant_presence": {},
+        "assistant_yes_pct": null,
+        "review_status": {}
+      },
+      "qwen_instruct": {
+        "n": 14,
+        "categories": {
+          "uncertain": 3,
+          "user_without_observed_assistant": 1,
+          "context_to_user_to_assistant": 2,
+          "context_to_assistant_direct": 6,
+          "continued_context": 2
+        },
+        "category_pct": {
+          "uncertain": 21.428571428571427,
+          "user_without_observed_assistant": 7.142857142857143,
+          "context_to_user_to_assistant": 14.285714285714286,
+          "context_to_assistant_direct": 42.857142857142854,
+          "continued_context": 14.285714285714286
+        },
+        "assistant_presence": {
+          "yes": 11,
+          "no": 3
+        },
+        "assistant_yes_pct": 78.57142857142857,
+        "review_status": {
+          "disagreement": 3,
+          "not_selected": 3,
+          "corroborated": 8
+        }
+      }
+    }
+  },
+  "boundary": {
+    "olmo_pretrain": {
+      "screened_parents": 2024,
+      "eligible": 0,
+      "extensions_saved": 0,
+      "extensions_excluded": 0,
+      "joint_graded": 0,
+      "first_assistant_yes": 0,
+      "joint_assistant_yes": 0,
+      "first_no_joint_yes": 0,
+      "first_yes_joint_no": 0,
+      "first_no_joint_yes_pct_of_joint": null,
+      "first_no_joint_yes_pct_of_retained_population": 0.0,
+      "transitions": {}
+    },
+    "olmo_midtrain": {
+      "screened_parents": 2025,
+      "eligible": 0,
+      "extensions_saved": 0,
+      "extensions_excluded": 0,
+      "joint_graded": 0,
+      "first_assistant_yes": 0,
+      "joint_assistant_yes": 0,
+      "first_no_joint_yes": 0,
+      "first_yes_joint_no": 0,
+      "first_no_joint_yes_pct_of_joint": null,
+      "first_no_joint_yes_pct_of_retained_population": 0.0,
+      "transitions": {}
+    },
+    "olmo_base": {
+      "screened_parents": 2029,
+      "eligible": 0,
+      "extensions_saved": 0,
+      "extensions_excluded": 0,
+      "joint_graded": 0,
+      "first_assistant_yes": 0,
+      "joint_assistant_yes": 0,
+      "first_no_joint_yes": 0,
+      "first_yes_joint_no": 0,
+      "first_no_joint_yes_pct_of_joint": null,
+      "first_no_joint_yes_pct_of_retained_population": 0.0,
+      "transitions": {}
+    },
+    "olmo_sft": {
+      "screened_parents": 2028,
+      "eligible": 797,
+      "extensions_saved": 797,
+      "extensions_excluded": 4,
+      "joint_graded": 793,
+      "first_assistant_yes": 113,
+      "joint_assistant_yes": 754,
+      "first_no_joint_yes": 586,
+      "first_yes_joint_no": 0,
+      "first_no_joint_yes_pct_of_joint": 73.89659520807062,
+      "first_no_joint_yes_pct_of_retained_population": 28.895463510848128,
+      "transitions": {
+        "no -> yes": 586,
+        "no -> no": 35,
+        "uncertain -> yes": 55,
+        "yes -> yes": 113,
+        "no -> uncertain": 4
+      }
+    },
+    "olmo_dpo": {
+      "screened_parents": 2040,
+      "eligible": 959,
+      "extensions_saved": 959,
+      "extensions_excluded": 1,
+      "joint_graded": 958,
+      "first_assistant_yes": 98,
+      "joint_assistant_yes": 933,
+      "first_no_joint_yes": 792,
+      "first_yes_joint_no": 1,
+      "first_no_joint_yes_pct_of_joint": 82.6722338204593,
+      "first_no_joint_yes_pct_of_retained_population": 38.8235294117647,
+      "transitions": {
+        "no -> yes": 792,
+        "yes -> yes": 97,
+        "no -> no": 23,
+        "uncertain -> yes": 44,
+        "no -> uncertain": 1,
+        "yes -> no": 1
+      }
+    },
+    "olmo_rl": {
+      "screened_parents": 2038,
+      "eligible": 963,
+      "extensions_saved": 963,
+      "extensions_excluded": 1,
+      "joint_graded": 962,
+      "first_assistant_yes": 86,
+      "joint_assistant_yes": 926,
+      "first_no_joint_yes": 794,
+      "first_yes_joint_no": 2,
+      "first_no_joint_yes_pct_of_joint": 82.53638253638253,
+      "first_no_joint_yes_pct_of_retained_population": 38.959764474975465,
+      "transitions": {
+        "no -> yes": 794,
+        "yes -> yes": 84,
+        "no -> no": 23,
+        "uncertain -> yes": 48,
+        "no -> uncertain": 5,
+        "uncertain -> no": 4,
+        "uncertain -> uncertain": 2,
+        "yes -> no": 2
+      }
+    },
+    "gemma_base": {
+      "screened_parents": 2037,
+      "eligible": 0,
+      "extensions_saved": 0,
+      "extensions_excluded": 0,
+      "joint_graded": 0,
+      "first_assistant_yes": 0,
+      "joint_assistant_yes": 0,
+      "first_no_joint_yes": 0,
+      "first_yes_joint_no": 0,
+      "first_no_joint_yes_pct_of_joint": null,
+      "first_no_joint_yes_pct_of_retained_population": 0.0,
+      "transitions": {}
+    },
+    "gemma_instruct": {
+      "screened_parents": 2047,
+      "eligible": 1274,
+      "extensions_saved": 1274,
+      "extensions_excluded": 0,
+      "joint_graded": 1274,
+      "first_assistant_yes": 566,
+      "joint_assistant_yes": 600,
+      "first_no_joint_yes": 52,
+      "first_yes_joint_no": 23,
+      "first_no_joint_yes_pct_of_joint": 4.081632653061225,
+      "first_no_joint_yes_pct_of_retained_population": 2.5403028822667317,
+      "transitions": {
+        "no -> no": 610,
+        "yes -> yes": 540,
+        "no -> yes": 52,
+        "uncertain -> no": 14,
+        "no -> uncertain": 17,
+        "uncertain -> yes": 8,
+        "yes -> no": 23,
+        "uncertain -> uncertain": 7,
+        "yes -> uncertain": 3
+      }
+    },
+    "qwen_base": {
+      "screened_parents": 2020,
+      "eligible": 0,
+      "extensions_saved": 0,
+      "extensions_excluded": 0,
+      "joint_graded": 0,
+      "first_assistant_yes": 0,
+      "joint_assistant_yes": 0,
+      "first_no_joint_yes": 0,
+      "first_yes_joint_no": 0,
+      "first_no_joint_yes_pct_of_joint": null,
+      "first_no_joint_yes_pct_of_retained_population": 0.0,
+      "transitions": {}
+    },
+    "qwen_instruct": {
+      "screened_parents": 2035,
+      "eligible": 14,
+      "extensions_saved": 14,
+      "extensions_excluded": 0,
+      "joint_graded": 14,
+      "first_assistant_yes": 11,
+      "joint_assistant_yes": 11,
+      "first_no_joint_yes": 0,
+      "first_yes_joint_no": 0,
+      "first_no_joint_yes_pct_of_joint": 0.0,
+      "first_no_joint_yes_pct_of_retained_population": 0.0,
+      "transitions": {
+        "yes -> yes": 11,
+        "no -> no": 3
+      }
+    }
+  },
+  "paired": {
+    "olmo_pretrain": {
+      "n": 2024,
+      "short_yes": 88,
+      "long_yes": 129,
+      "no_to_yes": 45,
+      "yes_to_no": 9,
+      "transitions": {
+        "no -> no": 1810,
+        "yes -> yes": 77,
+        "no -> uncertain": 37,
+        "uncertain -> no": 26,
+        "uncertain -> uncertain": 11,
+        "uncertain -> yes": 7,
+        "no -> yes": 45,
+        "yes -> no": 9,
+        "yes -> uncertain": 2
+      }
+    },
+    "olmo_midtrain": {
+      "n": 2023,
+      "short_yes": 420,
+      "long_yes": 667,
+      "no_to_yes": 241,
+      "yes_to_no": 7,
+      "transitions": {
+        "no -> yes": 241,
+        "no -> no": 1279,
+        "uncertain -> uncertain": 18,
+        "yes -> yes": 408,
+        "uncertain -> yes": 18,
+        "uncertain -> no": 25,
+        "no -> uncertain": 22,
+        "yes -> uncertain": 5,
+        "yes -> no": 7
+      }
+    },
+    "olmo_base": {
+      "n": 2029,
+      "short_yes": 504,
+      "long_yes": 907,
+      "no_to_yes": 394,
+      "yes_to_no": 16,
+      "transitions": {
+        "no -> no": 1053,
+        "no -> yes": 394,
+        "yes -> yes": 482,
+        "yes -> no": 16,
+        "no -> uncertain": 28,
+        "yes -> uncertain": 6,
+        "uncertain -> yes": 31,
+        "uncertain -> uncertain": 5,
+        "uncertain -> no": 14
+      }
+    },
+    "olmo_sft": {
+      "n": 2023,
+      "short_yes": 387,
+      "long_yes": 571,
+      "no_to_yes": 189,
+      "yes_to_no": 11,
+      "transitions": {
+        "no -> yes": 189,
+        "no -> no": 1317,
+        "yes -> yes": 370,
+        "uncertain -> uncertain": 50,
+        "no -> uncertain": 45,
+        "yes -> no": 11,
+        "yes -> uncertain": 6,
+        "uncertain -> no": 23,
+        "uncertain -> yes": 12
+      }
+    },
+    "olmo_dpo": {
+      "n": 2039,
+      "short_yes": 389,
+      "long_yes": 518,
+      "no_to_yes": 129,
+      "yes_to_no": 6,
+      "transitions": {
+        "no -> no": 1423,
+        "uncertain -> yes": 11,
+        "yes -> yes": 378,
+        "no -> yes": 129,
+        "uncertain -> no": 17,
+        "uncertain -> uncertain": 35,
+        "no -> uncertain": 35,
+        "yes -> uncertain": 5,
+        "yes -> no": 6
+      }
+    },
+    "olmo_rl": {
+      "n": 2036,
+      "short_yes": 407,
+      "long_yes": 568,
+      "no_to_yes": 161,
+      "yes_to_no": 5,
+      "transitions": {
+        "no -> no": 1362,
+        "yes -> yes": 398,
+        "no -> yes": 161,
+        "uncertain -> no": 21,
+        "no -> uncertain": 32,
+        "uncertain -> yes": 9,
+        "uncertain -> uncertain": 44,
+        "yes -> no": 5,
+        "yes -> uncertain": 4
+      }
+    },
+    "gemma_base": {
+      "n": 2037,
+      "short_yes": 103,
+      "long_yes": 132,
+      "no_to_yes": 38,
+      "yes_to_no": 10,
+      "transitions": {
+        "no -> no": 1825,
+        "yes -> no": 10,
+        "yes -> yes": 86,
+        "no -> yes": 38,
+        "no -> uncertain": 27,
+        "uncertain -> no": 17,
+        "uncertain -> uncertain": 19,
+        "yes -> uncertain": 7,
+        "uncertain -> yes": 8
+      }
+    },
+    "gemma_instruct": {
+      "n": 2047,
+      "short_yes": 718,
+      "long_yes": 893,
+      "no_to_yes": 165,
+      "yes_to_no": 7,
+      "transitions": {
+        "no -> no": 1084,
+        "yes -> yes": 708,
+        "no -> yes": 165,
+        "uncertain -> no": 20,
+        "no -> uncertain": 25,
+        "uncertain -> yes": 20,
+        "uncertain -> uncertain": 15,
+        "yes -> no": 7,
+        "yes -> uncertain": 3
+      }
+    },
+    "qwen_base": {
+      "n": 2019,
+      "short_yes": 770,
+      "long_yes": 944,
+      "no_to_yes": 176,
+      "yes_to_no": 8,
+      "transitions": {
+        "yes -> yes": 761,
+        "no -> no": 1007,
+        "uncertain -> no": 17,
+        "no -> yes": 176,
+        "no -> uncertain": 21,
+        "uncertain -> yes": 7,
+        "uncertain -> uncertain": 21,
+        "yes -> no": 8,
+        "yes -> uncertain": 1
+      }
+    },
+    "qwen_instruct": {
+      "n": 2033,
+      "short_yes": 1299,
+      "long_yes": 1517,
+      "no_to_yes": 217,
+      "yes_to_no": 14,
+      "transitions": {
+        "no -> no": 452,
+        "yes -> yes": 1282,
+        "no -> yes": 217,
+        "uncertain -> yes": 18,
+        "uncertain -> uncertain": 7,
+        "uncertain -> no": 17,
+        "no -> uncertain": 23,
+        "yes -> no": 14,
+        "yes -> uncertain": 3
+      }
+    }
+  }
+}

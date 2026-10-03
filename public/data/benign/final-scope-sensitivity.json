@@ -1,0 +1,107 @@
+{
+  "olmo_pretrain": {
+    "assistant_yes": 129,
+    "agreed_scope": {
+      "question_answer_document": 92,
+      "unclear": 1,
+      "forum_exchange": 11,
+      "scope_disagreement": 20,
+      "conversational": 4,
+      "quoted_example": 1
+    }
+  },
+  "olmo_midtrain": {
+    "assistant_yes": 668,
+    "agreed_scope": {
+      "question_answer_document": 587,
+      "scope_disagreement": 58,
+      "conversational": 12,
+      "forum_exchange": 10,
+      "quoted_example": 1
+    }
+  },
+  "olmo_base": {
+    "assistant_yes": 907,
+    "agreed_scope": {
+      "question_answer_document": 808,
+      "scope_disagreement": 69,
+      "conversational": 17,
+      "forum_exchange": 10,
+      "unclear": 1,
+      "quoted_example": 2
+    }
+  },
+  "olmo_sft": {
+    "assistant_yes": 572,
+    "agreed_scope": {
+      "question_answer_document": 498,
+      "scope_disagreement": 45,
+      "conversational": 14,
+      "forum_exchange": 12,
+      "quoted_example": 2,
+      "unclear": 1
+    }
+  },
+  "olmo_dpo": {
+    "assistant_yes": 519,
+    "agreed_scope": {
+      "question_answer_document": 432,
+      "scope_disagreement": 58,
+      "conversational": 20,
+      "forum_exchange": 7,
+      "unclear": 1,
+      "quoted_example": 1
+    }
+  },
+  "olmo_rl": {
+    "assistant_yes": 569,
+    "agreed_scope": {
+      "question_answer_document": 485,
+      "conversational": 21,
+      "forum_exchange": 5,
+      "scope_disagreement": 58
+    }
+  },
+  "gemma_base": {
+    "assistant_yes": 132,
+    "agreed_scope": {
+      "question_answer_document": 100,
+      "scope_disagreement": 20,
+      "forum_exchange": 8,
+      "conversational": 3,
+      "unclear": 1
+    }
+  },
+  "gemma_instruct": {
+    "assistant_yes": 893,
+    "agreed_scope": {
+      "question_answer_document": 646,
+      "scope_disagreement": 152,
+      "conversational": 88,
+      "quoted_example": 1,
+      "forum_exchange": 3,
+      "unclear": 3
+    }
+  },
+  "qwen_base": {
+    "assistant_yes": 945,
+    "agreed_scope": {
+      "question_answer_document": 846,
+      "conversational": 24,
+      "scope_disagreement": 62,
+      "forum_exchange": 12,
+      "quoted_example": 1
+    }
+  },
+  "qwen_instruct": {
+    "assistant_yes": 1518,
+    "agreed_scope": {
+      "question_answer_document": 1233,
+      "conversational": 106,
+      "scope_disagreement": 166,
+      "quoted_example": 1,
+      "unclear": 2,
+      "forum_exchange": 10
+    }
+  }
+}

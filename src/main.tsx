@@ -2,13 +2,15 @@ import {lazy,Suspense,useEffect,useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import './globals.css';
 import './comparison.css';
+import './benign.css';
+const Benign=lazy(()=>import('./benign-view'));
 const Olmo=lazy(()=>import('./raw-behavior-view'));
 const Tulu=lazy(()=>import('./tulu-view'));
 const Gq=lazy(()=>import('./gq-view'));
 const BASE=import.meta.env.BASE_URL;
 const repository='https://github.com/agastyasridharan/persona-selection-results';
-const studies=[['overview','All-model comparison'],['olmo','OLMo 32B'],['tulu','Llama–Tülu 70B'],['gemma-qwen','Gemma 27B / Qwen 32B']];
-function current(){const id=location.hash.slice(1);return studies.some(([key])=>key===id)?id:'overview'}
+const studies=[['benign','Benign continuations'],['overview','Refusal comparison'],['olmo','OLMo 32B'],['tulu','Llama–Tülu 70B'],['gemma-qwen','Gemma 27B / Qwen 32B']];
+function current(){const id=location.hash.slice(1);return studies.some(([key])=>key===id)?id:'benign'}
 function Overview(){
  const [data,setData]=useState<any[]>([]),[error,setError]=useState('');
  useEffect(()=>{Promise.all(['raw-behavior-v2/summary.json','tulu3-70b-refusal-v1/summary.json','gemma3-qwen25-refusal-v2/summary.json'].map(async file=>{const r=await fetch(BASE+'data/'+file);if(!r.ok)throw Error('Saved study summary unavailable');return r.json()})).then(setData).catch(e=>setError(String(e)))},[]);
@@ -22,6 +24,6 @@ function Overview(){
 function App(){
  const [study,setStudy]=useState(current);
  useEffect(()=>{const change=()=>setStudy(current());window.addEventListener('hashchange',change);return()=>window.removeEventListener('hashchange',change)},[]);
- return <main><header><div><div className="eyebrow">PERSONA SELECTION · REPLICATION RESULTS</div><h1>Model comparisons</h1><p className="subtitle">OLMo · Llama–Tülu · Gemma · Qwen</p></div><div className="header-right"><span className="live">Published research snapshots</span><a href={repository}>Data and source on GitHub</a>{study!=='overview'&&<button className="text-button" onClick={()=>document.getElementById('trial-browser')?.scrollIntoView({behavior:'smooth'})}>Jump to full continuations</button>}</div></header><nav className="study-tabs" aria-label="Choose a study">{studies.map(([id,title])=><a key={id} href={'#'+id} aria-current={study===id?'page':undefined} className={study===id?'active':''}>{title}</a>)}</nav><Suspense fallback={<section className="panel">Loading the saved study…</section>}>{study==='overview'?<Overview/>:study==='olmo'?<Olmo/>:study==='tulu'?<Tulu/>:<Gq/>}</Suspense><footer><span>Saved research snapshots. No local server, VPN, or GPU connection required. Browser review notes remain local to this browser.</span><a href={BASE+'snapshot-manifest.json'}>Snapshot provenance</a></footer></main>
+ return <main className="research-shell"><div className="site-bar"><a className="site-brand" href="#benign">Persona selection</a><nav className="site-nav" aria-label="Choose a study">{studies.map(([id,title])=><a key={id} href={'#'+id} aria-current={study===id?'page':undefined} className={study===id?'active':''}>{title}</a>)}</nav><a className="site-source" href={repository}>Source & data ↗</a></div><Suspense fallback={<div className="b-empty">Loading saved results…</div>}>{study==='benign'?<Benign/>:<div className="legacy-study">{study==='overview'?<Overview/>:study==='olmo'?<Olmo/>:study==='tulu'?<Tulu/>:<Gq/>}</div>}</Suspense><footer className="site-footer"><span>Saved research snapshots · excluded content omitted · no live inference</span><a href={BASE+'snapshot-manifest.json'}>Snapshot provenance</a></footer></main>
 }
 createRoot(document.getElementById('root')!).render(<App/>);

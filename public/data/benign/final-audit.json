@@ -1,0 +1,881 @@
+{
+  "at": 1790748942.960821,
+  "passed": true,
+  "generation": {
+    "olmo_pretrain": {
+      "passed": true,
+      "records": 2048,
+      "target": 2048,
+      "counts": {
+        "generated": 2025,
+        "excluded": 23
+      },
+      "complete": true
+    },
+    "olmo_midtrain": {
+      "passed": true,
+      "records": 2048,
+      "target": 2048,
+      "counts": {
+        "generated": 2030,
+        "excluded": 18
+      },
+      "complete": true
+    },
+    "olmo_base": {
+      "passed": true,
+      "records": 2048,
+      "target": 2048,
+      "counts": {
+        "generated": 2032,
+        "excluded": 16
+      },
+      "complete": true
+    },
+    "olmo_sft": {
+      "passed": true,
+      "records": 2048,
+      "target": 2048,
+      "counts": {
+        "generated": 2030,
+        "excluded": 18
+      },
+      "complete": true
+    },
+    "olmo_dpo": {
+      "passed": true,
+      "records": 2048,
+      "target": 2048,
+      "counts": {
+        "generated": 2042,
+        "excluded": 6
+      },
+      "complete": true
+    },
+    "olmo_rl": {
+      "passed": true,
+      "records": 2048,
+      "target": 2048,
+      "counts": {
+        "generated": 2038,
+        "excluded": 10
+      },
+      "complete": true
+    },
+    "gemma_base": {
+      "passed": true,
+      "records": 2048,
+      "target": 2048,
+      "counts": {
+        "generated": 2037,
+        "excluded": 11
+      },
+      "complete": true
+    },
+    "gemma_instruct": {
+      "passed": true,
+      "records": 2048,
+      "target": 2048,
+      "counts": {
+        "generated": 2047,
+        "excluded": 1
+      },
+      "complete": true
+    },
+    "qwen_base": {
+      "passed": true,
+      "records": 2048,
+      "target": 2048,
+      "counts": {
+        "generated": 2027,
+        "excluded": 21
+      },
+      "complete": true
+    },
+    "qwen_instruct": {
+      "passed": true,
+      "records": 2048,
+      "target": 2048,
+      "counts": {
+        "generated": 2036,
+        "excluded": 12
+      },
+      "complete": true
+    }
+  },
+  "boundary": {
+    "olmo_pretrain": {
+      "eligible": 0,
+      "records": 0,
+      "excluded": 0
+    },
+    "olmo_midtrain": {
+      "eligible": 0,
+      "records": 0,
+      "excluded": 0
+    },
+    "olmo_base": {
+      "eligible": 0,
+      "records": 0,
+      "excluded": 0
+    },
+    "olmo_sft": {
+      "eligible": 797,
+      "records": 797,
+      "excluded": 4
+    },
+    "olmo_dpo": {
+      "eligible": 959,
+      "records": 959,
+      "excluded": 1
+    },
+    "olmo_rl": {
+      "eligible": 963,
+      "records": 963,
+      "excluded": 1
+    },
+    "gemma_base": {
+      "eligible": 0,
+      "records": 0,
+      "excluded": 0
+    },
+    "gemma_instruct": {
+      "eligible": 1274,
+      "records": 1274,
+      "excluded": 0
+    },
+    "qwen_base": {
+      "eligible": 0,
+      "records": 0,
+      "excluded": 0
+    },
+    "qwen_instruct": {
+      "eligible": 14,
+      "records": 14,
+      "excluded": 0
+    }
+  },
+  "grading": {
+    "expansion-gemma_base-192/mini": {
+      "expected": 1526,
+      "labels": 1526,
+      "quarantined": 0,
+      "reused": 474
+    },
+    "expansion-gemma_base-192/strong": {
+      "expected": 270,
+      "labels": 270,
+      "quarantined": 0,
+      "reused": 26
+    },
+    "expansion-gemma_base-512/mini": {
+      "expected": 1526,
+      "labels": 1526,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-gemma_base-512/strong": {
+      "expected": 259,
+      "labels": 259,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-gemma_base-joint/mini": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-gemma_base-joint/strong": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-gemma_instruct-192/mini": {
+      "expected": 1536,
+      "labels": 1536,
+      "quarantined": 0,
+      "reused": 370
+    },
+    "expansion-gemma_instruct-192/strong": {
+      "expected": 672,
+      "labels": 672,
+      "quarantined": 0,
+      "reused": 164
+    },
+    "expansion-gemma_instruct-512/mini": {
+      "expected": 1536,
+      "labels": 1536,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-gemma_instruct-512/strong": {
+      "expected": 769,
+      "labels": 769,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-gemma_instruct-joint/mini": {
+      "expected": 968,
+      "labels": 968,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-gemma_instruct-joint/strong": {
+      "expected": 534,
+      "labels": 534,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_base-192/mini": {
+      "expected": 1523,
+      "labels": 1523,
+      "quarantined": 0,
+      "reused": 262
+    },
+    "expansion-olmo_base-192/strong": {
+      "expected": 537,
+      "labels": 537,
+      "quarantined": 0,
+      "reused": 160
+    },
+    "expansion-olmo_base-512/mini": {
+      "expected": 1523,
+      "labels": 1523,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_base-512/strong": {
+      "expected": 791,
+      "labels": 791,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_base-joint/mini": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_base-joint/strong": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_dpo-192/mini": {
+      "expected": 1532,
+      "labels": 1532,
+      "quarantined": 0,
+      "reused": 538
+    },
+    "expansion-olmo_dpo-192/strong": {
+      "expected": 467,
+      "labels": 467,
+      "quarantined": 0,
+      "reused": 100
+    },
+    "expansion-olmo_dpo-512/mini": {
+      "expected": 1532,
+      "labels": 1532,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_dpo-512/strong": {
+      "expected": 574,
+      "labels": 574,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_dpo-joint/mini": {
+      "expected": 706,
+      "labels": 706,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_dpo-joint/strong": {
+      "expected": 690,
+      "labels": 690,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_midtrain-192/mini": {
+      "expected": 1519,
+      "labels": 1519,
+      "quarantined": 0,
+      "reused": 280
+    },
+    "expansion-olmo_midtrain-192/strong": {
+      "expected": 469,
+      "labels": 469,
+      "quarantined": 0,
+      "reused": 133
+    },
+    "expansion-olmo_midtrain-512/mini": {
+      "expected": 1519,
+      "labels": 1519,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_midtrain-512/strong": {
+      "expected": 647,
+      "labels": 647,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_midtrain-joint/mini": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_midtrain-joint/strong": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_pretrain-192/mini": {
+      "expected": 1516,
+      "labels": 1516,
+      "quarantined": 0,
+      "reused": 177
+    },
+    "expansion-olmo_pretrain-192/strong": {
+      "expected": 240,
+      "labels": 240,
+      "quarantined": 0,
+      "reused": 9
+    },
+    "expansion-olmo_pretrain-512/mini": {
+      "expected": 1516,
+      "labels": 1516,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_pretrain-512/strong": {
+      "expected": 281,
+      "labels": 281,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_pretrain-joint/mini": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_pretrain-joint/strong": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_rl-192/mini": {
+      "expected": 1527,
+      "labels": 1527,
+      "quarantined": 0,
+      "reused": 580
+    },
+    "expansion-olmo_rl-192/strong": {
+      "expected": 494,
+      "labels": 494,
+      "quarantined": 0,
+      "reused": 132
+    },
+    "expansion-olmo_rl-512/mini": {
+      "expected": 1527,
+      "labels": 1527,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_rl-512/strong": {
+      "expected": 576,
+      "labels": 576,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_rl-joint/mini": {
+      "expected": 728,
+      "labels": 728,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_rl-joint/strong": {
+      "expected": 706,
+      "labels": 706,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_sft-192/mini": {
+      "expected": 1519,
+      "labels": 1519,
+      "quarantined": 0,
+      "reused": 528
+    },
+    "expansion-olmo_sft-192/strong": {
+      "expected": 458,
+      "labels": 458,
+      "quarantined": 0,
+      "reused": 140
+    },
+    "expansion-olmo_sft-512/mini": {
+      "expected": 1519,
+      "labels": 1519,
+      "quarantined": 0,
+      "reused": 2
+    },
+    "expansion-olmo_sft-512/strong": {
+      "expected": 620,
+      "labels": 620,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_sft-joint/mini": {
+      "expected": 593,
+      "labels": 593,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-olmo_sft-joint/strong": {
+      "expected": 571,
+      "labels": 571,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-qwen_base-192/mini": {
+      "expected": 1518,
+      "labels": 1518,
+      "quarantined": 0,
+      "reused": 446
+    },
+    "expansion-qwen_base-192/strong": {
+      "expected": 699,
+      "labels": 699,
+      "quarantined": 0,
+      "reused": 218
+    },
+    "expansion-qwen_base-512/mini": {
+      "expected": 1518,
+      "labels": 1518,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-qwen_base-512/strong": {
+      "expected": 805,
+      "labels": 805,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-qwen_base-joint/mini": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-qwen_base-joint/strong": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-qwen_instruct-192/mini": {
+      "expected": 1526,
+      "labels": 1526,
+      "quarantined": 0,
+      "reused": 160
+    },
+    "expansion-qwen_instruct-192/strong": {
+      "expected": 1059,
+      "labels": 1059,
+      "quarantined": 0,
+      "reused": 138
+    },
+    "expansion-qwen_instruct-512/mini": {
+      "expected": 1526,
+      "labels": 1526,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-qwen_instruct-512/strong": {
+      "expected": 1194,
+      "labels": 1194,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-qwen_instruct-joint/mini": {
+      "expected": 9,
+      "labels": 9,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "expansion-qwen_instruct-joint/strong": {
+      "expected": 6,
+      "labels": 6,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "pilot-gemma_base-192/mini": {
+      "expected": 511,
+      "labels": 511,
+      "quarantined": 0,
+      "reused": 158
+    },
+    "pilot-gemma_base-192/strong": {
+      "expected": 100,
+      "labels": 100,
+      "quarantined": 0,
+      "reused": 12
+    },
+    "pilot-gemma_base-512/mini": {
+      "expected": 511,
+      "labels": 511,
+      "quarantined": 0,
+      "reused": 9
+    },
+    "pilot-gemma_base-512/strong": {
+      "expected": 96,
+      "labels": 96,
+      "quarantined": 0,
+      "reused": 4
+    },
+    "pilot-gemma_base-joint/mini": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "pilot-gemma_base-joint/strong": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "pilot-gemma_instruct-192/mini": {
+      "expected": 511,
+      "labels": 511,
+      "quarantined": 0,
+      "reused": 104
+    },
+    "pilot-gemma_instruct-192/strong": {
+      "expected": 221,
+      "labels": 221,
+      "quarantined": 0,
+      "reused": 41
+    },
+    "pilot-gemma_instruct-512/mini": {
+      "expected": 511,
+      "labels": 511,
+      "quarantined": 0,
+      "reused": 12
+    },
+    "pilot-gemma_instruct-512/strong": {
+      "expected": 254,
+      "labels": 254,
+      "quarantined": 0,
+      "reused": 7
+    },
+    "pilot-gemma_instruct-joint/mini": {
+      "expected": 306,
+      "labels": 306,
+      "quarantined": 0,
+      "reused": 4
+    },
+    "pilot-gemma_instruct-joint/strong": {
+      "expected": 157,
+      "labels": 157,
+      "quarantined": 0,
+      "reused": 1
+    },
+    "pilot-olmo_base-192/mini": {
+      "expected": 506,
+      "labels": 506,
+      "quarantined": 0,
+      "reused": 90
+    },
+    "pilot-olmo_base-192/strong": {
+      "expected": 185,
+      "labels": 185,
+      "quarantined": 0,
+      "reused": 54
+    },
+    "pilot-olmo_base-512/mini": {
+      "expected": 506,
+      "labels": 506,
+      "quarantined": 0,
+      "reused": 11
+    },
+    "pilot-olmo_base-512/strong": {
+      "expected": 265,
+      "labels": 265,
+      "quarantined": 0,
+      "reused": 6
+    },
+    "pilot-olmo_base-joint/mini": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "pilot-olmo_base-joint/strong": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "pilot-olmo_dpo-192/mini": {
+      "expected": 507,
+      "labels": 507,
+      "quarantined": 0,
+      "reused": 192
+    },
+    "pilot-olmo_dpo-192/strong": {
+      "expected": 147,
+      "labels": 147,
+      "quarantined": 0,
+      "reused": 39
+    },
+    "pilot-olmo_dpo-512/mini": {
+      "expected": 508,
+      "labels": 508,
+      "quarantined": 0,
+      "reused": 11
+    },
+    "pilot-olmo_dpo-512/strong": {
+      "expected": 166,
+      "labels": 166,
+      "quarantined": 0,
+      "reused": 3
+    },
+    "pilot-olmo_dpo-joint/mini": {
+      "expected": 252,
+      "labels": 252,
+      "quarantined": 0,
+      "reused": 4
+    },
+    "pilot-olmo_dpo-joint/strong": {
+      "expected": 248,
+      "labels": 248,
+      "quarantined": 0,
+      "reused": 4
+    },
+    "pilot-olmo_midtrain-192/mini": {
+      "expected": 504,
+      "labels": 504,
+      "quarantined": 0,
+      "reused": 96
+    },
+    "pilot-olmo_midtrain-192/strong": {
+      "expected": 142,
+      "labels": 142,
+      "quarantined": 0,
+      "reused": 40
+    },
+    "pilot-olmo_midtrain-512/mini": {
+      "expected": 506,
+      "labels": 506,
+      "quarantined": 0,
+      "reused": 9
+    },
+    "pilot-olmo_midtrain-512/strong": {
+      "expected": 205,
+      "labels": 205,
+      "quarantined": 0,
+      "reused": 5
+    },
+    "pilot-olmo_midtrain-joint/mini": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "pilot-olmo_midtrain-joint/strong": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "pilot-olmo_pretrain-192/mini": {
+      "expected": 508,
+      "labels": 508,
+      "quarantined": 0,
+      "reused": 83
+    },
+    "pilot-olmo_pretrain-192/strong": {
+      "expected": 76,
+      "labels": 76,
+      "quarantined": 0,
+      "reused": 6
+    },
+    "pilot-olmo_pretrain-512/mini": {
+      "expected": 508,
+      "labels": 508,
+      "quarantined": 0,
+      "reused": 9
+    },
+    "pilot-olmo_pretrain-512/strong": {
+      "expected": 95,
+      "labels": 95,
+      "quarantined": 0,
+      "reused": 3
+    },
+    "pilot-olmo_pretrain-joint/mini": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "pilot-olmo_pretrain-joint/strong": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "pilot-olmo_rl-192/mini": {
+      "expected": 509,
+      "labels": 509,
+      "quarantined": 0,
+      "reused": 186
+    },
+    "pilot-olmo_rl-192/strong": {
+      "expected": 155,
+      "labels": 155,
+      "quarantined": 0,
+      "reused": 31
+    },
+    "pilot-olmo_rl-512/mini": {
+      "expected": 511,
+      "labels": 511,
+      "quarantined": 0,
+      "reused": 9
+    },
+    "pilot-olmo_rl-512/strong": {
+      "expected": 198,
+      "labels": 198,
+      "quarantined": 0,
+      "reused": 4
+    },
+    "pilot-olmo_rl-joint/mini": {
+      "expected": 234,
+      "labels": 234,
+      "quarantined": 0,
+      "reused": 4
+    },
+    "pilot-olmo_rl-joint/strong": {
+      "expected": 230,
+      "labels": 230,
+      "quarantined": 0,
+      "reused": 4
+    },
+    "pilot-olmo_sft-192/mini": {
+      "expected": 504,
+      "labels": 504,
+      "quarantined": 0,
+      "reused": 165
+    },
+    "pilot-olmo_sft-192/strong": {
+      "expected": 152,
+      "labels": 152,
+      "quarantined": 0,
+      "reused": 43
+    },
+    "pilot-olmo_sft-512/mini": {
+      "expected": 509,
+      "labels": 509,
+      "quarantined": 0,
+      "reused": 9
+    },
+    "pilot-olmo_sft-512/strong": {
+      "expected": 208,
+      "labels": 208,
+      "quarantined": 0,
+      "reused": 3
+    },
+    "pilot-olmo_sft-joint/mini": {
+      "expected": 200,
+      "labels": 200,
+      "quarantined": 0,
+      "reused": 4
+    },
+    "pilot-olmo_sft-joint/strong": {
+      "expected": 193,
+      "labels": 193,
+      "quarantined": 0,
+      "reused": 4
+    },
+    "pilot-qwen_base-192/mini": {
+      "expected": 501,
+      "labels": 501,
+      "quarantined": 0,
+      "reused": 143
+    },
+    "pilot-qwen_base-192/strong": {
+      "expected": 242,
+      "labels": 242,
+      "quarantined": 0,
+      "reused": 74
+    },
+    "pilot-qwen_base-512/mini": {
+      "expected": 502,
+      "labels": 502,
+      "quarantined": 0,
+      "reused": 10
+    },
+    "pilot-qwen_base-512/strong": {
+      "expected": 273,
+      "labels": 273,
+      "quarantined": 0,
+      "reused": 5
+    },
+    "pilot-qwen_base-joint/mini": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "pilot-qwen_base-joint/strong": {
+      "expected": 0,
+      "labels": 0,
+      "quarantined": 0,
+      "reused": 0
+    },
+    "pilot-qwen_instruct-192/mini": {
+      "expected": 507,
+      "labels": 507,
+      "quarantined": 0,
+      "reused": 59
+    },
+    "pilot-qwen_instruct-192/strong": {
+      "expected": 351,
+      "labels": 351,
+      "quarantined": 0,
+      "reused": 52
+    },
+    "pilot-qwen_instruct-512/mini": {
+      "expected": 509,
+      "labels": 509,
+      "quarantined": 0,
+      "reused": 11
+    },
+    "pilot-qwen_instruct-512/strong": {
+      "expected": 403,
+      "labels": 403,
+      "quarantined": 0,
+      "reused": 10
+    },
+    "pilot-qwen_instruct-joint/mini": {
+      "expected": 5,
+      "labels": 5,
+      "quarantined": 0,
+      "reused": 4
+    },
+    "pilot-qwen_instruct-joint/strong": {
+      "expected": 5,
+      "labels": 5,
+      "quarantined": 0,
+      "reused": 4
+    }
+  },
+  "pilot_preserved": 5120
+}
